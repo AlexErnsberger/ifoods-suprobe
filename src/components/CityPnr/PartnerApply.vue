@@ -31,15 +31,30 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-5">
+          <div class="col-md-6">
             <section>
               <header><h3>城市合伙人预选</h3><h3>9月</h3><h3></h3></header>
               <p>官方账号+媒体联动+城市宣讲
                 ，启动合伙人招募计划</p>
             </section>
           </div>
-          <div class="col-md-12"></div>
-          <div class="col-md-12"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-md-offset-6">
+            <section class="right">
+              <header><h3>城市合伙人复审</h3><h3>10月</h3><h3></h3></header>
+              <p>项目方根据申请人递交资质，筛选第
+                  二轮沟通候选名单</p>
+            </section>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <section>
+              <header><h3>城市合伙人确认</h3><h3>11月</h3><h3></h3></header>
+              <p>城市合伙人名单确认，计划正式实施</p>
+            </section>
+          </div>
         </div>
       </div>
     </section>
@@ -118,11 +133,17 @@ export default {
     }
   }
   &>section{
-    @width:3em;
     .content;
+    .row:not(:first-child){
+      background:linear-gradient(to bottom,@common-color) no-repeat;
+      background-size: 1px 100%;
+      background-position: 50% 0;
+    }
     section{
       color: white;
       text-align: right;
+      margin-left: 2.5em;
+      margin-right: 2.5em;
       h3{
         display: inline-block;
         font-size: 1.6em;
@@ -155,6 +176,10 @@ export default {
         color:#666;
         white-space: pre-line;
       }
+    }
+    section.right{
+      direction: rtl;
+      text-align: left;
     }
   }
 }
