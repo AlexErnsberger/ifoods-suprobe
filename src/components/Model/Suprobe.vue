@@ -1,0 +1,59 @@
+<template>
+  <div id="suprobe">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <transition appear-active-class="animated slideInLeft" appear>
+            <article>
+              <h1>超级探针</h1>
+              <p>由Ifood chain智能硬件实验室研发
+                针对肉类质量检测的智能设备</p>
+            </article>
+          </transition>
+        </div>
+        <div class="col-md-6">
+          <transition appear-active-class="animated slideInRight" appear>
+            <aside>
+              <img src="/static/img/suprobe/superprode.png">
+            </aside>
+          </transition>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style lang="less" scoped>
+#suprobe{
+  background:url(/static/img/suprobe/background.jpg) no-repeat center/100% 100%;
+  padding-top:70px;// header
+  width: 100%; height: 100%;
+  article{
+    padding: 40% 0 40% 50%;
+    color: white;
+    text-align: left;
+    h1{
+      font-size: 3.4em;
+      letter-spacing: .1em;
+    }
+    p{
+      font-size: 1.2em;font-weight: 400;
+      line-height: 2;
+      white-space: pre-line;
+    }
+  }
+  aside{
+    padding: 20% 20% 20% 0;
+    img{
+      width: 100%;height: 100%;
+    }
+  }
+}
+
+</style>
