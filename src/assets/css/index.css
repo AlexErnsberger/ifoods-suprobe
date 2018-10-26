@@ -13,6 +13,9 @@ a{
 a:hover{
   text-decoration: none;
 }
+a:active{
+  text-decoration: none;
+}
 img{
   max-width: 100%;
 }

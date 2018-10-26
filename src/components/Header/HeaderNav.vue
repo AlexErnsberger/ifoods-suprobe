@@ -56,7 +56,7 @@ ul{
       }
 
       &.router-link-active{
-        color: #1765a2;
+        color:@common-color;
         text-decoration: none;
         span{
           padding: 4px 0;
