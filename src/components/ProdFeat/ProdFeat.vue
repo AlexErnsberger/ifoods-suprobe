@@ -23,15 +23,15 @@
             <article>
               <ul>
                 <li>
-                  <h3>即时</h3>
+                  <h3><i class="icon iconfont">&#xe619;</i>即时</h3>
                   <p>随时随地，60s快速检测，满足消费者食品知情权</p>
                 </li>
                 <li>
-                  <h3>智能</h3>
+                  <h3><i class="icon iconfont">&#xe74b;</i>智能</h3>
                   <p>微纳传感器，具有可靠性高、易于集成和实现智能化特点</p>
                 </li>
                 <li>
-                  <h3>便携</h3>
+                  <h3><i class="icon iconfont">&#xe6e8;</i>便携</h3>
                   <p>外观小巧、易于携带，你身边最精巧的智能检测硬件</p>
                 </li>
               </ul>
@@ -97,7 +97,7 @@ export default {
     }
   }
   article{
-    padding: 30% 0;
+    padding: 25% 0;
     color: white;
     li{
       list-style-type: none;
@@ -105,34 +105,38 @@ export default {
       h3{
         .mixin-h(@fs:2em;@lh:2);
         letter-spacing: .1em;
+        i{
+          font-size: 1em;
+          padding-right: .5em;
+        }
       }
       p{
         .mixin-h(@fs:1.2em;@lh:2);
         letter-spacing: .2em;
       }
-      h3:before{
-        content: '';
-        display: inline-block;
-        width: 1em;height: 1em;
-        vertical-align: -.1em;
-        margin-right: .5em;
-      }
-      &:nth-of-type(1){
-        h3:before{
-          background: url(/static/img/prodfeat/icon-immediately.png) no-repeat center/100% 100%;
-        }
-      }
-      &:nth-of-type(2){
-        h3:before{
-          background: url(/static/img/prodfeat/icon-portable.png) no-repeat center/100% 100%;
-        }
-      }
-      &:nth-of-type(3){
-        h3:before{
-          background: url(/static/img/prodfeat/icon-intelligence.png) no-repeat center/100% 100%;
-          vertical-align: -.2em;
-        }
-      }
+      // h3:before{
+      //   content: '';
+      //   display: inline-block;
+      //   width: 1em;height: 1em;
+      //   vertical-align: -.1em;
+      //   margin-right: .5em;
+      // }
+      // &:nth-of-type(1){
+      //   h3:before{
+      //     background: url(/static/img/prodfeat/icon-immediately.png) no-repeat center/100% 100%;
+      //   }
+      // }
+      // &:nth-of-type(2){
+      //   h3:before{
+      //     background: url(/static/img/prodfeat/icon-portable.png) no-repeat center/100% 100%;
+      //   }
+      // }
+      // &:nth-of-type(3){
+      //   h3:before{
+      //     background: url(/static/img/prodfeat/icon-intelligence.png) no-repeat center/100% 100%;
+      //     vertical-align: -.2em;
+      //   }
+      // }
     }
   }
 }

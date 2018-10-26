@@ -53,7 +53,6 @@ ul{
 
       &:hover{
         color:#414040;
-        text-decoration: none ;
       }
 
       &.router-link-active{
@@ -69,10 +68,10 @@ ul{
     &:last-of-type{
       a{
         color:white;
-        background: #1765a2;
+        background:linear-gradient(to right,@common-color-light,@common-color);
 
         &:hover{
-          color: white;
+          background: @common-color-light linear-gradient(hsla(0,0%,100%,.2),transparent);
         }
       }
     }

@@ -134,6 +134,9 @@ export default {
         background: linear-gradient(to right,@common-color-light,@common-color);
         border-radius: 24px;
       }
+      a:hover{
+        background: @common-color-light linear-gradient(hsla(0,0%,100%,.2),transparent);
+      }
     }
   }
   &.slide-2{

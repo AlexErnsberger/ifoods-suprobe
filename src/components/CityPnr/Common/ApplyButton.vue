@@ -15,7 +15,6 @@ export default {
 <style lang="less" scoped>
   a{
     display: inline-block;
-    text-decoration: none;
     background: @common-color linear-gradient(to right,@common-color-light,@common-color);
     width: 11em;
     margin: auto;padding: .7em;
@@ -23,7 +22,6 @@ export default {
     color: currentColor;
     font-size: 1.2em;
     &:hover{
-      text-decoration: none;
       background: @common-color-light linear-gradient(hsla(0,0%,100%,.2),transparent);
     }
     span{

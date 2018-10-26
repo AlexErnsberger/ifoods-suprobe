@@ -30,9 +30,8 @@ header {
   min-height: 70px;
   padding: 10px;
   background: #f8f8f8;
-  border-bottom: 1px solid #ccc;
   z-index: 2;
-
+  box-shadow:  0 3px 10px rgba(0, 0, 0, 0.4);
   .row>div {
     height: 50px;
   }
