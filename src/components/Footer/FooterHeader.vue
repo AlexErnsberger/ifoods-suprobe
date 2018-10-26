@@ -40,14 +40,16 @@ export default {
 <style lang="less" scoped>
   header{
     color:#999;
-    border-bottom: 1px solid #999;
     padding: 10px 0;
     text-align: center;
+    .row{
+      border-bottom: 1px solid #999;
+    }
     a{
       display: inline-block;
       font-size: 1.2em;
       color: currentColor;
-      padding: .5em 0 .3em 0;
+      padding: 1em 0;
       text-decoration: none;
       i{
         font-size: 1.2em;
@@ -55,7 +57,6 @@ export default {
       }
       &:hover{
         color:@common-color;
-        border-bottom: 2px solid @common-color;
       }
     }
     a::before{
