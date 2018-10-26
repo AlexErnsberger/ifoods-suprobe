@@ -6,17 +6,19 @@
           <div class="row">
             <div class="col-md-6">
               <transition appear-active-class="animated slideInLeft" appear>
-                <section >
-                  <a href="#" class="suprobe-img" />
-                </section>
+                <img src="/static/img/home/swiper/banner1-suprobe-img.png">
               </transition>
             </div>
             <div class="col-md-6">
               <transition enter-active-class="animated slideInRight" appear>
                 <section>
-                  <a href="#" class="suprobe-font">
+                  <!-- <a href="#" class="suprobe-font">
                     <a href="#">立即订购</a>
-                  </a>
+                  </a> -->
+                  <h1>超级探针</h1>
+                  <h2>Suprobe Home</h2>
+                  <h3>创世版首发 品鉴邀请中</h3>
+                  <a href="#">立即订购</a>
                 </section>
               </transition>
             </div>
@@ -53,7 +55,7 @@
 </template>
 <script>
 import {swiper, swiperSlide} from 'vue-awesome-swiper'
-import SwiperContent from '@/components/Home/SwiperContent.vue'
+import SwiperContent from '@/components/Home/Common/SwiperContent.vue'
 export default {
   components: {
     swiper, swiperSlide, SwiperContent
@@ -73,12 +75,12 @@ export default {
         centeredSlides: true,
         effect: 'fade',
         // 无限循环
-        loop: true,
+        // loop: true,
         // 自动播放
-        autoplay: {
-          delay: 4000,
-          disableOnInteraction: false
-        },
+        // autoplay: {
+        //   delay: 4000,
+        //   disableOnInteraction: false
+        // },
         pagination: {
           el: '.swiper-pagination',
           clickable: true
@@ -96,55 +98,57 @@ export default {
 <style lang="less" scoped>
 .swiper-slide {
   width: 100%;
-  @height: 390px;
-  height: @height;
+  height: @common-bg-height;
   margin-top: 70px;
-  &.slide-1{
-    background: url(/static/img/swiper-bg/banner1.png) no-repeat center/100% 100%;
-    a{
-      display: block;
-      position: relative;
-      &:hover{
-        text-decoration: none;
+  &.slide-1 {
+    background: url(/static/img/home/swiper/banner1.png) no-repeat center/100% 100%;
+    img{
+      margin-top: calc((400px - 60%) / 2);
+      width:60%;height: 60%;
+    }
+    section{
+      text-align: center;
+      width: 80%;
+      margin:auto;
+      margin-top: 50px;
+      h1{
+        .mixin-h(@fw:100;);
+        text-indent: @home-head / 3;
+        letter-spacing: @home-head / 3;
       }
-      &.suprobe-img::after{
-        content: '';
-        display: block;
-        background: url(/static/img/swiper-bg/banner1-suprobe-img.png) no-repeat center/70% 80%;
-        height:@height; 
+      h2{
+        .mixin-h( @home-head + @home-head / 30,400);
+        margin-bottom: @home-head / 4;
+      }
+      h3{
+        .mixin-h(@home-head / 1.5,400);
+        color:#999;
+        margin-bottom:  @home-head / 4;
       }
       a{
-        position: absolute;
-        line-height: 2.6;
-        background-color: #1765a2;
-        border-radius: 20px;
-        width: 36%;
-        color: white;
-        bottom: 10%;
-        left: 50%;
-        margin-left: -18%;
-      }
-      &.suprobe-font::before{
-        content: '';
         display: block;
-        background: url(/static/img/swiper-bg/banner1-suprobe-font.png) no-repeat center/60% 50%;
-        height:@height; 
+        width:200px;
+        margin:auto;padding: .6em 0;
+        font-size: 1.2em;
+        color: white;
+        background: linear-gradient(to right,@common-color-light,@common-color);
+        border-radius: 24px;
       }
     }
   }
   &.slide-2{
-    background: url(/static/img/swiper-bg/banner2.png) no-repeat center/100% 100%;
+    background: url(/static/img/home/swiper/banner2.png) no-repeat center/100% 100%;
     color: white;
     letter-spacing: .3em;
     section{
-      margin-top: @height/3;
+      margin-top: @common-bg-height/3;
     }
   }
   &.slide-3{
-    background: url(/static/img/swiper-bg/banner3.png) no-repeat center/100% 100%;
+    background: url(/static/img/home/swiper/banner3.png) no-repeat center/100% 100%;
     color: #e3a53c;
     section{
-      margin-top: @height/3;
+      margin-top: @common-bg-height/3;
       letter-spacing: .3em;
     }
   }

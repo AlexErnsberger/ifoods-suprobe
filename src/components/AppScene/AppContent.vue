@@ -26,13 +26,12 @@ article{
   width: 80%;
   margin: 30% auto;
   h3{
-    font-size: 1.6em;
-    line-height: 2em;
+    .mixin-h(@fs:1.6em;@lh:2);
     letter-spacing: .1em;
   }
   p{
     text-align: justify;
-    line-height: 2em;
+    .mixin-h(@fs:1em;@lh:2);
     letter-spacing: .05em;
   }
 }

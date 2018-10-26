@@ -103,7 +103,7 @@ export default {
 #pnr-apply{
   &>header{
     background: url(/static/img/citypnr/bg-apply.png) no-repeat center/100% 100%;
-    height: 400px;
+    height: @common-bg-height;
     padding: 20px 0;
     & section.left{
       text-align: right;

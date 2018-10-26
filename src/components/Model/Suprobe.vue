@@ -14,7 +14,7 @@
         <div class="col-md-6">
           <transition appear-active-class="animated slideInRight" appear>
             <aside>
-              <img src="/static/img/suprobe/superprode.png">
+              <img src="/static/img/model/superprode1.png">
             </aside>
           </transition>
         </div>
@@ -31,27 +31,26 @@ export default {
 
 <style lang="less" scoped>
 #suprobe{
-  background:url(/static/img/suprobe/background.jpg) no-repeat center/100% 100%;
+  background:url(/static/img/model/background.jpg) no-repeat center/100% 100%;
   padding-top:70px;// header
   width: 100%; height: 100%;
   article{
-    padding: 40% 0 40% 50%;
+    padding: 50% 0 50% 10%;
     color: white;
     text-align: left;
     h1{
-      font-size: 3.4em;
-      letter-spacing: .1em;
+      .mixin-h(@fw:100);
+      letter-spacing:  @home-head / 30;
     }
     p{
-      font-size: 1.2em;font-weight: 400;
-      line-height: 2;
+      .mixin-h(@fs:@home-subHeadCont;@fw:100;@lh:2);
       white-space: pre-line;
     }
   }
   aside{
     padding: 20% 20% 20% 0;
     img{
-      width: 100%;height: 100%;
+      width: 75%;
     }
   }
 }

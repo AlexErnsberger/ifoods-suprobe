@@ -29,14 +29,14 @@ export default {
   width: 100%; height: 100%;
   color:white;
   article{
-    width: 300px;
+    width: 55%;
     margin: auto;padding: 25% 0;
     h2{
+      .mixin-h(@fs:2.4em;@fw:100;@lh:2);
       text-align: right;
-      line-height: 3em;
     }
     p{
-      line-height: 2em;
+      .mixin-h(@fs:1.2em;@fw:100;@lh:2);
       letter-spacing: .1em;
       text-align: justify;
     }

@@ -10,7 +10,7 @@ export default {
 
 <style lang="less" scoped>
   header{
-    height: 400px;
+    height: @common-bg-height;
     background: url(/static/img/citypnr/bg-header.png) no-repeat center/100% 100%;
   }
 </style>

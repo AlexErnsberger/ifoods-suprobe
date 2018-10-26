@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import HomeSwiper from '@/components/Home/Swiper.vue'
-import HomeNews from '@/components/Home/SuprobeNews.vue'
+import HomeSwiper from '@/components/Home/HomeSwiper.vue'
+import HomeNews from '@/components/Home/HomeNews.vue'
 export default {
   components: {
     HomeSwiper, HomeNews
@@ -18,5 +18,6 @@ export default {
 <style lang="less" scoped>
 #suprobe-home{
   height: 100%;
+  overflow: auto;
 }
 </style>

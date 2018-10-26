@@ -5,6 +5,15 @@ body{
   font:14px;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
 
 /**
  *清除滚动条影响

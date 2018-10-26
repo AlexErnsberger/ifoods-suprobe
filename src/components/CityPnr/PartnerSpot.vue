@@ -99,7 +99,7 @@ export default {
     display: flex;
     justify-content: center;align-items: center;
     background: url(/static/img/citypnr/spot/bg-spot.png) no-repeat center/100% 100%;
-    height: 400px;
+    height: @common-bg-height;
     color: white;
     line-height: @citypnr-lh;
     section{

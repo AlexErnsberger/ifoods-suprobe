@@ -26,7 +26,7 @@ export default {
 
 <style lang="less" scoped>
   footer {
-    height: 400px;
+    height: @common-bg-height;
     background: url(/static/img/citypnr/bg-footer.png) no-repeat center/100% 100%;
     color:white;
     article{
