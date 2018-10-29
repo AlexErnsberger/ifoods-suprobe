@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <div id="pnr-footer">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -12,7 +12,7 @@
         </div>
       </div>
     </div>
-  </footer>
+  </div>
 </template>
 
 <script>
@@ -25,12 +25,11 @@ export default {
 </script>
 
 <style lang="less" scoped>
-  footer {
-    height: @common-bg-height;
-    background: url(/static/img/citypnr/bg-footer.png) no-repeat center/100% 100%;
+  #pnr-footer {
+    .mixin-bg(@url: url(/static/img/citypnr/bg-footer.png);@height: @common-bg-height);
+    .mixin-center;
     color:white;
     article{
-      margin-top:100px;
       h3{
         font-size: @citypnr-head-fsize;
         white-space: pre-line;

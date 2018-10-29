@@ -51,6 +51,7 @@ export default {
 
 <style lang="less" scoped>
 @span-fs:1.2em;
+@img-width:50%;
 .mixin-span{
   content: '';
   display: inline-block;
@@ -61,15 +62,13 @@ export default {
   background-size: @span-fs/3 @span-fs/3;
 }
 #prodFeat{
-  background:url(/static/img/prodfeat/background.jpg) no-repeat center/100% 100%;
-  padding-top:70px;// header
-  width: 100%; height: 100%;
+  .mixin-bg(@url:url(/static/img/prodfeat/background.jpg);@height:@common-fullscreen-height);
+  .mixin-center;
   aside{
-    padding: 20% 20% 20% 0;
     position: relative;
     color:white;
     img{
-      width: 75%;
+      width: 50%;
     }
     span{
       .mixin-h(@span-fs);
@@ -80,7 +79,7 @@ export default {
     }
     span:nth-of-type(1) {
       text-align: right;
-      left: 0;top:30%;
+      left: @img-width/4;top:@img-width/3;
       &::after{
         margin-left: @span-fs/1.5;
         .mixin-span;
@@ -88,7 +87,7 @@ export default {
     }
     span:nth-of-type(2) {
       text-align: left;
-      bottom: 25%;right: 30%;
+      bottom: @img-width/4;right: @img-width/3;
       direction: rtl;
       &::after{
         margin-right: @span-fs/1.5;
@@ -97,7 +96,6 @@ export default {
     }
   }
   article{
-    padding: 25% 0;
     color: white;
     li{
       list-style-type: none;

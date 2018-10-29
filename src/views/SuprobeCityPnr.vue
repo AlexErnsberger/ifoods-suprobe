@@ -23,9 +23,7 @@ export default {
 
 <style lang="less" scoped>
 #city-pnr{
-  height: 100%;
   padding-top: 70px;
-  overflow: auto;
   h2{
     font-size: 1.8em;
   }

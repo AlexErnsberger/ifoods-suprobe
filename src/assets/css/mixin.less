@@ -3,7 +3,9 @@
  */
 @common-color:#1765a2;
 @common-color-light:#1d79c0;
-@common-bg-height:400px;
+
+@common-bg-height:31.25vw;//1920x600
+@common-fullscreen-height:52vw;//1920*1000;
 /**
  *统一标题大小
  */
@@ -15,6 +17,24 @@
   font-weight: @fw;
   line-height: @lh;
 }
+.mixin-bg(@url;@height:0;@repeat:no-repeat;@position:center;@size:100% 100%;){
+  background-image: @url;
+  background-repeat: @repeat;
+  background-position: @position;
+  background-size: @size;
+  height: @height;
+}
+.mixin-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/**
+ *主页
+ */
+@home-fs-color:#666464;
+@home-fs-color-lighter:#969494;
+@home-bg-color:#fafafa;
 /**
  *城市合伙人
  */
@@ -24,3 +44,7 @@
 .content{
   padding: 80px 0;
 }
+/**
+ *页脚
+ */
+@footer-color:#c5c3c3;

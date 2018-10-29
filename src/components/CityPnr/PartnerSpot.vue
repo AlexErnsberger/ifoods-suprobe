@@ -96,10 +96,8 @@ export default {
 <style lang="less" scoped>
 #pnr-spot{
   &>header{
-    display: flex;
-    justify-content: center;align-items: center;
-    background: url(/static/img/citypnr/spot/bg-spot.png) no-repeat center/100% 100%;
-    height: @common-bg-height;
+    .mixin-center;
+    .mixin-bg(@url: url(/static/img/citypnr/spot/bg-spot.png);@height: @common-bg-height);
     color: white;
     line-height: @citypnr-lh;
     section{

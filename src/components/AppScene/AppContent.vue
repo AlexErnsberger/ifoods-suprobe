@@ -24,7 +24,7 @@ export default {
 <style lang="less" scoped>
 article{
   width: 80%;
-  margin: 30% auto;
+  margin:auto;
   h3{
     .mixin-h(@fs:1.6em;@lh:2);
     letter-spacing: .1em;

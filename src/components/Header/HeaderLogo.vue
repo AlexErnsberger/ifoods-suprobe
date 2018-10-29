@@ -11,7 +11,7 @@ export default {
 <style lang="less" scoped>
 a{
   font-size: 0;
-
+  
   &::after{
     content: '';
     display: inline-block;

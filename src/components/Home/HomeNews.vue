@@ -42,7 +42,7 @@ export default {
     }
     h3{
       float: right;
-      color: #666464;
+      color: @home-fs-color;
       font-size: 1.2em;
       text-align: left;
       width: 60%;

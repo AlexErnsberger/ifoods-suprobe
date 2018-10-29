@@ -102,9 +102,8 @@ export default {
 /**style*/
 #pnr-apply{
   &>header{
-    background: url(/static/img/citypnr/bg-apply.png) no-repeat center/100% 100%;
-    height: @common-bg-height;
-    padding: 20px 0;
+    .mixin-bg(@url: url(/static/img/citypnr/bg-apply.png);@height:  @common-bg-height);
+    .mixin-center;
     & section.left{
       text-align: right;
       .progress-section;

@@ -2,22 +2,22 @@
   <div id="suprobe-home">
     <home-swiper></home-swiper>
     <home-news></home-news>
+    <home-qr-code></home-qr-code>
   </div>
 </template>
 
 <script>
 import HomeSwiper from '@/components/Home/HomeSwiper.vue'
 import HomeNews from '@/components/Home/HomeNews.vue'
+import HomeQrCode from '@/components/Home/HomeQrCode.vue'
 export default {
   components: {
-    HomeSwiper, HomeNews
+    HomeSwiper, HomeNews, HomeQrCode
   }
 }
 </script>
 
 <style lang="less" scoped>
 #suprobe-home{
-  height: 100%;
-  overflow: auto;
 }
 </style>

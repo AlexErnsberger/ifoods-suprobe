@@ -21,8 +21,10 @@ export default {
     border-radius: .4em;
     color: currentColor;
     font-size: 1.2em;
+    text-decoration: none;
     &:hover{
       background: @common-color-light linear-gradient(hsla(0,0%,100%,.2),transparent);
+      text-decoration: none;
     }
     span{
       font-size: 1.2em;

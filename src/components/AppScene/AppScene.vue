@@ -58,20 +58,18 @@ export default {
 </script>
 
 <style lang="less" scoped>
-#appScene,.swiper-container{
-  height: 100%;
-}
 .swiper-slide{
-  margin-top: 70px;
-  width: 100%;
   &.slide-1{
-    background: url(/static/img/appscene/slide1-bg.jpg) no-repeat center/100% 100%;
+    .mixin-bg(@url: url(/static/img/appscene/slide1-bg.jpg);@height:@common-fullscreen-height);
+    .mixin-center;
   }
   &.slide-2{
-    background: url(/static/img/appscene/slide2-bg.jpg) no-repeat center/100% 100%;
+    .mixin-bg(@url: url(/static/img/appscene/slide2-bg.jpg);@height:@common-fullscreen-height);
+    .mixin-center;
   }
   &.slide-3{
-    background: url(/static/img/appscene/slide3-bg.jpg) no-repeat center/100% 100%;
+    .mixin-bg(@url: url(/static/img/appscene/slide3-bg.jpg);@height:@common-fullscreen-height);
+    .mixin-center;
   }
 }
 </style>

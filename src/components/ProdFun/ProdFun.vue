@@ -2,8 +2,7 @@
   <div id="prodFunc">
     <div class="contain">
       <div class="row">
-        <div class="col-md-7"></div>
-        <div class="col-md-5">
+        <div class="col-md-5 col-md-offset-7">
           <transition appear-active-class="animated slideInRight" appear>
             <article>
               <h2>产品功能</h2>
@@ -24,13 +23,12 @@ export default {
 
 <style lang="less" scoped>
 #prodFunc{
-  background:url(/static/img/prodfunc/background.jpg) no-repeat center/100% 100%;
-  padding-top:70px;// header
-  width: 100%; height: 100%;
-  color:white;
+  .mixin-bg(@url:url(/static/img/prodfunc/background.jpg);@height:@common-fullscreen-height);
+  .mixin-center;
   article{
+    color:white;
     width: 55%;
-    margin: auto;padding: 25% 0;
+    margin: auto;
     h2{
       .mixin-h(@fs:2.4em;@fw:100;@lh:2);
       text-align: right;
@@ -41,6 +39,5 @@ export default {
       text-align: justify;
     }
   }
-  
 }
 </style>

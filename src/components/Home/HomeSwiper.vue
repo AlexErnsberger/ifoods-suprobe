@@ -75,12 +75,12 @@ export default {
         centeredSlides: true,
         effect: 'fade',
         // 无限循环
-        // loop: true,
+        loop: true,
         // 自动播放
-        // autoplay: {
-        //   delay: 4000,
-        //   disableOnInteraction: false
-        // },
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false
+        },
         pagination: {
           el: '.swiper-pagination',
           clickable: true
@@ -97,20 +97,16 @@ export default {
 
 <style lang="less" scoped>
 .swiper-slide {
-  width: 100%;
-  height: @common-bg-height;
   margin-top: 70px;
   &.slide-1 {
-    background: url(/static/img/home/swiper/banner1.png) no-repeat center/100% 100%;
+    .mixin-bg(@url:url(/static/img/home/swiper/banner1.png);@height:@common-bg-height);
+    .mixin-center;
     img{
-      margin-top: calc((400px - 60%) / 2);
-      width:60%;height: 60%;
+      width:60%;
     }
     section{
-      text-align: center;
       width: 80%;
       margin:auto;
-      margin-top: 50px;
       h1{
         .mixin-h(@fw:100;);
         text-indent: @home-head / 3;
@@ -140,20 +136,15 @@ export default {
     }
   }
   &.slide-2{
-    background: url(/static/img/home/swiper/banner2.png) no-repeat center/100% 100%;
+    .mixin-bg(@url: url(/static/img/home/swiper/banner2.png);@height: @common-bg-height);
+    .mixin-center;
     color: white;
     letter-spacing: .3em;
-    section{
-      margin-top: @common-bg-height/3;
-    }
   }
   &.slide-3{
-    background: url(/static/img/home/swiper/banner3.png) no-repeat center/100% 100%;
+    .mixin-bg(@url: url(/static/img/home/swiper/banner3.png);@height: @common-bg-height);
+    .mixin-center;
     color: #e3a53c;
-    section{
-      margin-top: @common-bg-height/3;
-      letter-spacing: .3em;
-    }
   }
 }
 </style>

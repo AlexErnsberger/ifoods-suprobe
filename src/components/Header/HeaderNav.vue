@@ -50,9 +50,10 @@ ul{
       line-height: 50px;
       padding: 0 15px;
       color:#777777;
-
+      text-decoration: none;
       &:hover{
         color:#414040;
+        text-decoration: none;
       }
 
       &.router-link-active{
