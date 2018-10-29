@@ -6,6 +6,7 @@ import SuprobeProdFun from '@/views/SuprobeProdFun.vue'
 import SuprobeProdFeat from '@/views/SuprobeProdFeat.vue'
 import SuprobeAppScene from '@/views/SuprobeAppScene.vue'
 import SuprobeCityPnr from '@/views/SuprobeCityPnr.vue'
+import SuprobeAboutUs from '@/views/HomeSubPage/SuprobeAboutUs.vue'
 
 Vue.use(Router)
 
@@ -40,6 +41,11 @@ export default new Router({
       path: '/citypnr',
       name: 'SuprobeCityPnr',
       component: SuprobeCityPnr
+    },
+    {
+      path: '/aboutus',
+      name: 'aboutus',
+      component: SuprobeAboutUs
     }
   ]
 })

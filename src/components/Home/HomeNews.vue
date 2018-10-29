@@ -30,6 +30,7 @@ export default {
 
 <style lang="less" scpoed>
 #suprobe-news{
+  padding: 20px 0;
   a{
     display: inline-block;
     position: relative;
