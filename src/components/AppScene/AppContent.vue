@@ -25,6 +25,7 @@ export default {
 article{
   width: 80%;
   margin:auto;
+  color:@home-fs-color;
   h3{
     .mixin-h(@fs:1.6em;@lh:2);
     letter-spacing: .1em;

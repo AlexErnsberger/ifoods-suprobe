@@ -5,7 +5,7 @@
         <div class="col-md-6">
           <transition appear-active-class="animated slideInLeft" appear>
             <aside>
-              <img src="/static/img/model/superprode1.png">
+              <img src="/static/img/model/superprode.png">
               <span>
                 手拉抓握处
                 呈肌理感
