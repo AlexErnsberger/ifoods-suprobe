@@ -1,11 +1,11 @@
 <template>
   <article>
-    <section v-for="pro in progress" :key="pro">
+    <section v-for="(pro, index) in progress" :key="index">
       <h4>{{pro.year}}</h4>
       <ul>
-        <li v-for="schedule in pro.schedule" :key="schedule">
+        <li v-for="(schedule, index) in pro.schedule" :key="index">
           <span>{{schedule.month}}</span>
-          <span>{{schedule.done}}</span>
+          <span>{{schedule.work}}</span>
         </li>
       </ul>
     </section>

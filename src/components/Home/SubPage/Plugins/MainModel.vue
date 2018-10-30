@@ -4,11 +4,13 @@
       <div class="row">
         <div class="col-md-4">
           <nav>
-            <a href="#" v-for="(nav,index) in navs" :key="index">{{nav.title}}</a>
+            <a href="#" v-for="(tab,index) in tabs" :key="index" @click.prevent="choose(tab)" :class="{'active':currentTab == tab}">{{tab.title}}</a>
           </nav>
         </div>
         <div class="col-md-8">
-         <slide-model></slide-model>
+          <article-model v-if="currentTab.type=='article'" :title="currentTab.title" :content="currentTab.content"></article-model>
+          <progress-model v-if="currentTab.type=='progress'" :progress="currentTab.content"></progress-model>
+          <slide-model></slide-model>
         </div>
       </div>
     </div>
@@ -24,7 +26,17 @@ export default {
     ArticleModel, ProgressModel, SlideModel
   },
   props:{
-    navs:Array
+    tabs:Array
+  },
+  data () {
+    return {
+      currentTab:this.tabs[0]
+    }
+  },
+  methods: {
+    choose (tab) {
+      this.currentTab = tab
+    }
   }
 }
 </script>
@@ -34,6 +46,11 @@ export default {
 section{
   background: @home-bg-color;
   padding-bottom: 80px;
+  .active{
+    background:@active-bg-color;
+    box-shadow: -.2em 0  @common-color;
+    color:@home-fs-color-deeper;
+  }
   .container{
     .row>div{
       padding: 0;
@@ -52,13 +69,7 @@ section{
       a+a{
         border-top: .01em solid @border-bottom-color;
       }
-      .active{
-        background:@active-bg-color;
-        border-left: .2em solid @common-color;
-        color:@home-fs-color-deeper;
-      }
     }
-    
   }
 }
 

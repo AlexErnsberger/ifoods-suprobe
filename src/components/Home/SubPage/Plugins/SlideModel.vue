@@ -1,7 +1,7 @@
 <template>
   <article>
     <ul>
-      <li v-for="list in lists" :key="list">
+      <li v-for="list in slide" :key="list">
         <a href="#" @click.prevent="ishow">{{list.title}}<i :class="{'show-i':show}"></i></a>
         <p :class="{'show':show}" >{{list.content}}</p>
       </li>
@@ -12,7 +12,7 @@
 <script>
 export default {
   props: {
-    lists: Array
+    slide: Array
   },
   data () {
     return {
