@@ -107,6 +107,9 @@ export default {
     section{
       width: 80%;
       margin:auto;
+      h1, h2, h3{
+        color: @home-fs-color;
+      }
       h1{
         .mixin-h(@fw:100;);
         text-indent: @home-head / 3;
