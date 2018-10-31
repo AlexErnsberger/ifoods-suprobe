@@ -7,7 +7,7 @@
             <h4>友情合作</h4>
             <a target="_blank" href="http://www.buaa.edu.cn/">北京航空航天大学</a>
             <a target="_blank" href="http://www.fsfda.gov.cn/">佛山食药监局</a>
-            <a target="_blank" href="http://www.ppsuc.edu.cn/">中国公安大学</a>
+            <a target="_blank" href="http://www.ppsuc.edu.cn/">中国公安人民大学</a>
             <a target="_blank" href="http://www.cava.org.cn/">中国蔬菜流通协会</a>
           </nav>
         </div>

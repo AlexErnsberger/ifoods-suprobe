@@ -10,7 +10,7 @@
         <div class="col-md-8">
           <article-model v-if="currentTab.type=='article'" :title="currentTab.title" :content="currentTab.content"></article-model>
           <progress-model v-if="currentTab.type=='progress'" :progress="currentTab.content"></progress-model>
-          <slide-model></slide-model>
+          <slide-model v-if="currentTab.type=='slide'" :slide="currentTab.content"></slide-model>
         </div>
       </div>
     </div>
@@ -54,6 +54,10 @@ section{
   .container{
     .row>div{
       padding: 0;
+      &:last-child{
+        height: 40em;
+        overflow: auto;
+      }
     }
     nav{
       a{

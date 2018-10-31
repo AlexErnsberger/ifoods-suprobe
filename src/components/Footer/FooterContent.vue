@@ -6,7 +6,7 @@
           <h5>关于我们</h5>
           <router-link tag="a" to="/aboutus">了解我们</router-link>
           <router-link tag="a" to="/aboutus">媒体报道</router-link>
-          <router-link tag="a" to="/aboutus">加入我们</router-link>
+          <router-link tag="a" to="/joinus">加入我们</router-link>
         </nav>
       </div>
       <div class="col-md-3">
@@ -14,14 +14,14 @@
           <h5>关注我们</h5>
           <a target="_blank" href="https://weibo.com/6544925985/profile?topnav=1&wvr=6">新浪微博</a>
           <router-link tag="a" to="/aboutus">官方微信</router-link>
-          <router-link tag="a" to="/aboutus">联系我们</router-link>
+          <router-link tag="a" to="/contactus">联系我们</router-link>
         </nav>
       </div>
       <div class="col-md-3">
         <nav>
           <h5>关于我们</h5>
+          <router-link tag="a" to="/faq">常见问题</router-link>
           <router-link tag="a" to="/aboutus">售后政策</router-link>
-          <router-link tag="a" to="/aboutus">自助服务</router-link>
           <router-link tag="a" to="/aboutus">相关下载</router-link>
         </nav>
       </div>

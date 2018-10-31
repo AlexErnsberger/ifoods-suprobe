@@ -7,6 +7,9 @@ import SuprobeProdFeat from '@/views/SuprobeProdFeat.vue'
 import SuprobeAppScene from '@/views/SuprobeAppScene.vue'
 import SuprobeCityPnr from '@/views/SuprobeCityPnr.vue'
 import SuprobeAboutUs from '@/views/HomeSubPage/SuprobeAboutUs.vue'
+import SuprobeJoinUs from '@/views/HomeSubPage/SuprobeJoinUs.vue'
+import SuprobeContactUs from '@/views/HomeSubPage/SuprobeContactUs.vue'
+import SuprobeFAQ from '@/views/HomeSubPage/SuprobeFAQ.vue'
 
 Vue.use(Router)
 
@@ -46,6 +49,21 @@ export default new Router({
       path: '/aboutus',
       name: 'aboutus',
       component: SuprobeAboutUs
+    },
+    {
+      path: '/joinus',
+      name: 'joinus',
+      component: SuprobeJoinUs
+    },
+    {
+      path: '/contactus',
+      name: 'contactus',
+      component: SuprobeContactUs
+    },
+    {
+      path: '/faq',
+      name: 'faq',
+      component: SuprobeFAQ
     }
   ]
 })

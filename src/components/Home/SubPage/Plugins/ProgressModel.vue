@@ -28,7 +28,7 @@ article{
   letter-spacing: .2em;
   background:@active-bg-color;
   h4{
-    line-height: 3;
+    line-height: 2;
   }
   section{
     ul{

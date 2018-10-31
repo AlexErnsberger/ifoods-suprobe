@@ -1,9 +1,9 @@
 <template>
   <article>
     <ul>
-      <li v-for="list in slide" :key="list">
-        <a href="#" @click.prevent="ishow">{{list.title}}<i :class="{'show-i':show}"></i></a>
-        <p :class="{'show':show}" >{{list.content}}</p>
+      <li v-for="(list, index) in slide" :key="index">
+        <a href="#" @click.prevent="ishow(list)">{{list.title}}<i :class="{'show-i':currentTab === list}"></i></a>
+        <p :class="[{'show-scroll':currentTab === list&&list.content.length>120},{'show':currentTab === list&&list.content.length<=120}]" >{{list.content}}</p>
       </li>
     </ul>
   </article>
@@ -16,12 +16,12 @@ export default {
   },
   data () {
     return {
-      show: false
+      currentTab:null
     }
   },
   methods: {
-    ishow () {
-      this.show = !this.show
+    ishow (list) {
+      this.currentTab = list
     }
   }
 }
@@ -76,14 +76,21 @@ export default {
           color:@home-fs-color;
           background-color: @home-bg-color;
           padding: 0 1.2em;
+          white-space: pre-line;
+          line-height: 2;
           height: 0;
           overflow: hidden;
-          transition: 1s ease-out;
+          transition: .5s linear;
         }
-        .show{
-          height: 5em;
+        .show, .show-scroll{
+          height: 8em;
           margin: 1em 0;
           padding: 1em 1.2em;
+          
+        }
+        .show-scroll{
+          height: 10em;
+          overflow: auto;
         }
         .show-i{
           background-size: @slide-a-fs @slide-a-fs/5,0 0;
@@ -91,4 +98,18 @@ export default {
       }
     }
   }
+  /**
+ *滚动条设置
+ */
+::-webkit-scrollbar { /* 血槽宽度 */
+  width: 8px; height: 8px;
+}
+::-webkit-scrollbar-thumb { /* 拖动条 */
+  background-color: rgba(0,0,0,.1);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track { /* 背景槽 */
+  background-color: #ddd;
+  border-radius: 6px;
+} 
 </style>

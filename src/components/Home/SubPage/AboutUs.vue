@@ -1,5 +1,5 @@
 <template>
-  <div class="about-us">
+  <div id="about-us">
     <header></header>
     <main-model :tabs="aboutUs"></main-model>
   </div>
@@ -79,6 +79,6 @@ export default {
 
 <style lang="less" scoped>
 header{
-  .mixin-bg(@url: url(/static/img/home/aboutus.jpg);@height:@common-bg-height);
+  .mixin-bg(@url: url(/static/img/home/aboutus.jpg);@height:@common-subpage-head);
 }
 </style>

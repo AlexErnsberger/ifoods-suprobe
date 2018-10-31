@@ -20,11 +20,11 @@ article{
   padding: 1em 3em 2em 3em;
   letter-spacing: .2em;
   background:@active-bg-color;
-  h4{
-    line-height: 3;
+  h4, p{
+    line-height: 2;
+    color: @home-fs-color;
   }
   p{
-    line-height: 2;
     white-space: pre-line;
   }
 }
