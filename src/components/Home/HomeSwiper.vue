@@ -18,7 +18,7 @@
                   <h1>超级探针</h1>
                   <h2>Suprobe Home</h2>
                   <h3>创世版首发 品鉴邀请中</h3>
-                  <a href="#">立即订购</a>
+                  <a href="https://weidian.com/item.html?itemID=2621089563&p=iphone&wfr=wxBuyerShare&share_relation=3288c65866e6f5c6_192567885_1">立即订购</a>
                 </section>
               </transition>
             </div>
@@ -128,6 +128,7 @@ export default {
         display: block;
         width:200px;
         margin:auto;padding: .6em 0;
+        text-decoration: none;
         font-size: 1.2em;
         color: white;
         background: linear-gradient(to right,@common-color-light,@common-color);
@@ -135,6 +136,7 @@ export default {
       }
       a:hover{
         background: @common-color-light linear-gradient(hsla(0,0%,100%,.2),transparent);
+        text-decoration: none;
       }
     }
   }

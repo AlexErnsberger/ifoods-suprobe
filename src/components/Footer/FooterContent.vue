@@ -21,8 +21,8 @@
         <nav>
           <h5>关于我们</h5>
           <router-link tag="a" to="/faq">常见问题</router-link>
-          <router-link tag="a" to="/aboutus">售后政策</router-link>
-          <router-link tag="a" to="/aboutus">相关下载</router-link>
+          <router-link tag="a" to="/salepolicy">售后政策</router-link>
+          <router-link tag="a" to="/download">相关下载</router-link>
         </nav>
       </div>
       <div class="col-md-3">

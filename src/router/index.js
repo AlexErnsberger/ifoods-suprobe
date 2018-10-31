@@ -10,6 +10,8 @@ import SuprobeAboutUs from '@/views/HomeSubPage/SuprobeAboutUs.vue'
 import SuprobeJoinUs from '@/views/HomeSubPage/SuprobeJoinUs.vue'
 import SuprobeContactUs from '@/views/HomeSubPage/SuprobeContactUs.vue'
 import SuprobeFAQ from '@/views/HomeSubPage/SuprobeFAQ.vue'
+import SuprobeSalePolicy from '@/views/HomeSubPage/SuprobeSalePolicy.vue'
+import SuprobeDownload from '@/views/HomeSubPage/SuprobeDownload.vue'
 
 Vue.use(Router)
 
@@ -64,6 +66,23 @@ export default new Router({
       path: '/faq',
       name: 'faq',
       component: SuprobeFAQ
+    },
+    {
+      path: '/salepolicy',
+      name: 'salepolicy',
+      component: SuprobeSalePolicy
+    },
+    {
+      path: '/download',
+      name: 'download',
+      component: SuprobeDownload
     }
-  ]
+  ],
+  scrollBehavior (to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { x: 0, y: 0 }
+    }
+  }
 })

@@ -53,9 +53,9 @@ section{
   }
   .container{
     .row>div{
-      padding: 0;
+      padding: 50px 0;
       &:last-child{
-        height: 40em;
+        height: 45em;
         overflow: auto;
       }
     }
