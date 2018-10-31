@@ -52,7 +52,6 @@ export default {
       color: @home-fs-color;
       h2{
         color: currentColor;
-        line-height: 3;
       }
       section{
         display: inline-block;
@@ -60,7 +59,7 @@ export default {
         padding: 10px;
         img{
           border-radius: 1em;
-          margin: 0 0 1em 0;
+          margin: 0 0 2em 0;
         }
         a{
           display: block;

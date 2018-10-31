@@ -5,7 +5,7 @@
         <nav>
           <h5>关于我们</h5>
           <router-link tag="a" to="/aboutus">了解我们</router-link>
-          <router-link tag="a" to="/aboutus">媒体报道</router-link>
+          <router-link tag="a" to="/news">媒体报道</router-link>
           <router-link tag="a" to="/joinus">加入我们</router-link>
         </nav>
       </div>

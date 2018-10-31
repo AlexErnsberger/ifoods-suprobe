@@ -79,7 +79,7 @@ export default {
     }
     span:nth-of-type(1) {
       text-align: right;
-      left: @img-width/4;top:@img-width/3;
+      left: @img-width/4;top:@img-width/5;
       &::after{
         margin-left: @span-fs/1.5;
         .mixin-span;
@@ -87,7 +87,7 @@ export default {
     }
     span:nth-of-type(2) {
       text-align: left;
-      bottom: @img-width/4;right: @img-width/3;
+      bottom: 0;right: @img-width/3;
       direction: rtl;
       &::after{
         margin-right: @span-fs/1.5;
@@ -112,29 +112,6 @@ export default {
         .mixin-h(@fs:1.2em;@lh:2);
         letter-spacing: .2em;
       }
-      // h3:before{
-      //   content: '';
-      //   display: inline-block;
-      //   width: 1em;height: 1em;
-      //   vertical-align: -.1em;
-      //   margin-right: .5em;
-      // }
-      // &:nth-of-type(1){
-      //   h3:before{
-      //     background: url(/static/img/prodfeat/icon-immediately.png) no-repeat center/100% 100%;
-      //   }
-      // }
-      // &:nth-of-type(2){
-      //   h3:before{
-      //     background: url(/static/img/prodfeat/icon-portable.png) no-repeat center/100% 100%;
-      //   }
-      // }
-      // &:nth-of-type(3){
-      //   h3:before{
-      //     background: url(/static/img/prodfeat/icon-intelligence.png) no-repeat center/100% 100%;
-      //     vertical-align: -.2em;
-      //   }
-      // }
     }
   }
 }

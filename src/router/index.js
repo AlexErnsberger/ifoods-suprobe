@@ -12,6 +12,7 @@ import SuprobeContactUs from '@/views/HomeSubPage/SuprobeContactUs.vue'
 import SuprobeFAQ from '@/views/HomeSubPage/SuprobeFAQ.vue'
 import SuprobeSalePolicy from '@/views/HomeSubPage/SuprobeSalePolicy.vue'
 import SuprobeDownload from '@/views/HomeSubPage/SuprobeDownload.vue'
+import SuprobeNews from '@/views/HomeSubPage/SuprobeNews.vue'
 
 Vue.use(Router)
 
@@ -76,6 +77,11 @@ export default new Router({
       path: '/download',
       name: 'download',
       component: SuprobeDownload
+    },
+    {
+      path: '/news',
+      name: 'news',
+      component: SuprobeNews
     }
   ],
   scrollBehavior (to, from, savedPosition) {
