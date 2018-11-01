@@ -8,7 +8,7 @@
       </div>
       <div class="row">
         <div class="col-md-4" v-for="(news,index) in newsList" :key="index">
-          <short-view-model :news="news"></short-view-model>
+          <short-view-model :news="news" style="height:400px"></short-view-model>
         </div>
       </div>
     </div>
@@ -24,7 +24,7 @@ export default {
   data () {
     return {
       laterlyNews: {
-        img: '/static/img/news/news1.jpg',
+        img: '/static/img/news/news1/news1-6.jpg',
         path: 'news1',
         href: '',
         title: '食品检测技术公链Ifoods Chain重磅推出终端应用产品超级探针',
@@ -35,7 +35,7 @@ export default {
       },
       newsList:[
         {
-          img: '/static/img/news/news2.jpg',
+          img: '/static/img/news/news2/news2-1.jpg',
           path: 'news2',
           href: '',
           title: '食安链超级探针系统为首都大学生运动会保驾护航',
@@ -46,7 +46,7 @@ export default {
           最终60-120秒内告诉使用者食品品质如何。`
         },
         {
-          img: '/static/img/news/news3.jpg',
+          img: '/static/img/news/news3/news3-1.jpeg',
           path: 'news3',
           href: '',
           title: '对话卡隆：我们用区块链技术解决食品安全问题的最后一公里',
@@ -57,8 +57,8 @@ export default {
           无需任何第三方的介入便能证明该信息的真实性。`
         },
         {
-          img: '/static/img/news/news4.jpg',
-          path: 'news3',
+          img: '/static/img/news/news4/news4-1.jpg',
+          path: 'news4',
           href: '',
           title: '卡隆|如何用区块链解决溯源问题',
           publishTime: '2017-07-07',

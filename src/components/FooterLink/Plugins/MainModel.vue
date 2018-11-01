@@ -8,7 +8,7 @@
           </nav>
         </div>
         <div class="col-md-8">
-          <article-model v-if="currentTab.type=='article'" :title="currentTab.title" :content="currentTab.content"></article-model>
+          <normal-model v-if="currentTab.type=='article'" :title="currentTab.title" :content="currentTab.content"></normal-model>
           <progress-model v-if="currentTab.type=='progress'" :progress="currentTab.content"></progress-model>
           <slide-model v-if="currentTab.type=='slide'" :slide="currentTab.content"></slide-model>
         </div>
@@ -18,12 +18,12 @@
 </template>
 
 <script>
-import ArticleModel from '@/components/FooterLink/Plugins/ArticleModel.vue'
+import NormalModel from '@/components/FooterLink/Plugins/NormalModel.vue'
 import ProgressModel from '@/components/FooterLink/Plugins/ProgressModel.vue'
 import SlideModel from '@/components/FooterLink/Plugins/SlideModel.vue'
 export default {
   components: {
-    ArticleModel, ProgressModel, SlideModel
+    NormalModel, ProgressModel, SlideModel
   },
   props:{
     tabs:Array

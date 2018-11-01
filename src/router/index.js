@@ -13,6 +13,10 @@ import SuprobeFAQ from '@/views/FooterLink/SuprobeFAQ.vue'
 import SuprobeSalePolicy from '@/views/FooterLink/SuprobeSalePolicy.vue'
 import SuprobeDownload from '@/views/FooterLink/SuprobeDownload.vue'
 import SuprobeNews from '@/views/FooterLink/SuprobeNews.vue'
+import SuprobeNews1 from '@/views/News/SuprobeNews1.vue'
+import SuprobeNews2 from '@/views/News/SuprobeNews2.vue'
+import SuprobeNews3 from '@/views/News/SuprobeNews3.vue'
+import SuprobeNews4 from '@/views/News/SuprobeNews4.vue'
 
 Vue.use(Router)
 
@@ -82,6 +86,26 @@ export default new Router({
       path: '/news',
       name: 'news',
       component: SuprobeNews
+    },
+    {
+      path: '/news1',
+      name: 'news1',
+      component: SuprobeNews1
+    },
+    {
+      path: '/news2',
+      name: 'news2',
+      component: SuprobeNews2
+    },
+    {
+      path: '/news3',
+      name: 'news3',
+      component: SuprobeNews3
+    },
+    {
+      path: '/news4',
+      name: 'news4',
+      component: SuprobeNews4
     }
   ],
   scrollBehavior (to, from, savedPosition) {
