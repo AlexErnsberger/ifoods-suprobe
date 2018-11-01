@@ -1,5 +1,5 @@
 <template>
-  <join-us></join-us>
+<join-us></join-us>
 </template>
 
 <script>

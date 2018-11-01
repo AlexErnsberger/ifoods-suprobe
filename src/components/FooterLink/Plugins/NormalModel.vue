@@ -1,30 +1,33 @@
 <template>
-  <article>
-    <h4>{{title}}</h4>
-    <p>{{content}}</p>
-  </article>
+<article>
+  <h4>{{title}}</h4>
+  <p>{{content}}</p>
+</article>
 </template>
 
 <script>
 export default {
   props: {
-    title:String,
-    content:String
+    title: String,
+    content: String
   }
 }
 </script>
 
 <style lang="less" scoped>
-article{
+article {
   text-align: left;
   padding: 1em 3em 2em 3em;
   letter-spacing: .2em;
-  background:@active-bg-color;
-  h4, p{
+  background: @active-bg-color;
+
+  h4,
+  p {
     line-height: 2;
     color: @home-fs-color;
   }
-  p{
+
+  p {
     white-space: pre-line;
   }
 }

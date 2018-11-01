@@ -1,5 +1,5 @@
 <template>
-  <app-scene></app-scene>
+<app-scene></app-scene>
 </template>
 
 <script>

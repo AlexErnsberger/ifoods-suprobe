@@ -1,9 +1,9 @@
 <template>
-  <div id="app">
-    <suprobe-header></suprobe-header>
-    <router-view/>
-    <suprobe-footer></suprobe-footer>
-  </div>
+<div id="app">
+  <suprobe-header></suprobe-header>
+  <router-view />
+  <suprobe-footer></suprobe-footer>
+</div>
 </template>
 
 <script>
@@ -12,7 +12,8 @@ import SuprobeFooter from '@/components/Footer/Footer.vue'
 export default {
   name: 'App',
   components: {
-    SuprobeHeader, SuprobeFooter
+    SuprobeHeader,
+    SuprobeFooter
   }
 }
 </script>

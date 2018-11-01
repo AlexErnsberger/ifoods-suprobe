@@ -1,5 +1,5 @@
 <template>
-  <sale-policy></sale-policy>
+<sale-policy></sale-policy>
 </template>
 
 <script>

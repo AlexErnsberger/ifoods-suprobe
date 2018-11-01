@@ -1,5 +1,5 @@
 <template>
-  <a href="#" ></a>
+<a href="#" ></a>
 </template>
 
 <script>
@@ -9,14 +9,15 @@ export default {
 </script>
 
 <style lang="less" scoped>
-a{
+a {
   font-size: 0;
-  
-  &::after{
+
+  &::after {
     content: '';
     display: inline-block;
     background: url(../../assets/img/header/header-logo.svg) no-repeat center;
-    width: 100px;height: 50px;
+    width: 100px;
+    height: 50px;
   }
 }
 </style>

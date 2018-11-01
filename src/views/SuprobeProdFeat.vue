@@ -1,5 +1,5 @@
 <template>
-  <prod-feat></prod-feat>
+<prod-feat></prod-feat>
 </template>
 
 <script>

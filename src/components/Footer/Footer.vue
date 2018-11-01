@@ -1,9 +1,9 @@
 <template>
-  <footer id="footer">
-      <footer-header></footer-header>
-      <footer-content></footer-content>
-      <footer-bottom></footer-bottom>
-  </footer>
+<footer id="footer">
+  <footer-header></footer-header>
+  <footer-content></footer-content>
+  <footer-bottom></footer-bottom>
+</footer>
 </template>
 
 <script>
@@ -12,13 +12,13 @@ import FooterContent from '@/components/Footer/FooterContent.vue'
 import FooterBottom from '@/components/Footer/FooterBottom.vue'
 export default {
   components: {
-    FooterHeader, FooterContent, FooterBottom
+    FooterHeader,
+    FooterContent,
+    FooterBottom
   }
 }
 </script>
 
 <style lang="less" scoped>
-#footer{
-  
-}
+#footer {}
 </style>

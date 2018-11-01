@@ -1,10 +1,10 @@
 <template>
-  <div id="suprobe-home">
-    <home-swiper></home-swiper>
-    <home-pics></home-pics>
-    <home-news></home-news>
-    <home-qr-code></home-qr-code>
-  </div>
+<div id="suprobe-home">
+  <home-swiper></home-swiper>
+  <home-pics></home-pics>
+  <home-news></home-news>
+  <home-qr-code></home-qr-code>
+</div>
 </template>
 
 <script>
@@ -14,12 +14,14 @@ import HomeQrCode from '@/components/Home/HomeQrCode.vue'
 import HomePics from '@/components/Home/HomePics.vue'
 export default {
   components: {
-    HomeSwiper, HomeNews, HomeQrCode, HomePics
+    HomeSwiper,
+    HomeNews,
+    HomeQrCode,
+    HomePics
   }
 }
 </script>
 
 <style lang="less" scoped>
-#suprobe-home{
-}
+#suprobe-home {}
 </style>

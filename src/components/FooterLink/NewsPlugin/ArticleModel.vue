@@ -1,7 +1,7 @@
 <template>
-  <article>
-    <slot></slot>
-  </article>
+<article>
+  <slot></slot>
+</article>
 </template>
 
 <script>
@@ -11,28 +11,38 @@ export default {
 </script>
 
 <style lang="less" scoped>
-article{
+article {
   padding: 5em 20em;
-  h3, h4, h6, p{
+
+  h3,
+  h4,
+  h6,
+  p {
     letter-spacing: .25em;
   }
-  h6{
-    color:@home-fs-color-lighter;
+
+  h6 {
+    color: @home-fs-color-lighter;
     text-align: right;
   }
-  h3{
+
+  h3 {
     color: @home-fs-color-deeper;
     line-height: 3;
   }
-  h4, p{
-    color:@home-fs-color;
+
+  h4,
+  p {
+    color: @home-fs-color;
     line-height: 2;
   }
-  p{
+
+  p {
     text-align: justify;
     white-space: pre-line;
   }
-  img{
+
+  img {
     max-width: 100%;
     margin: 10px 0;
   }

@@ -1,5 +1,5 @@
 <template>
-  <suprobe></suprobe>
+<suprobe></suprobe>
 </template>
 
 <script>

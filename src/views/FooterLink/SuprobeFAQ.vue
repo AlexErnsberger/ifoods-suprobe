@@ -1,5 +1,5 @@
 <template>
-  <f-a-q></f-a-q>
+<f-a-q></f-a-q>
 </template>
 
 <script>

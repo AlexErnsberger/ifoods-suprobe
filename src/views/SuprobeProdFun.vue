@@ -1,5 +1,5 @@
 <template>
-  <prod-func></prod-func>
+<prod-func></prod-func>
 </template>
 
 <script>

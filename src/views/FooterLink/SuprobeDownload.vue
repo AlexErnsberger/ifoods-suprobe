@@ -1,5 +1,5 @@
 <template>
-  <download></download>
+<download></download>
 </template>
 
 <script>
