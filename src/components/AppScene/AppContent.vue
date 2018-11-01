@@ -4,8 +4,8 @@
     <div class="col-md-6">
       <transition appear-active-class="animated slideInLeft" appear>
         <article>
-          <h3>{{data.title}}</h3>
-          <p>{{data.content}}</p>
+          <h3 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">{{data.title}}</h3>
+          <p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">{{data.content}}</p>
         </article>
       </transition>
     </div>

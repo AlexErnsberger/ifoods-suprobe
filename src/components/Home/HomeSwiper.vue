@@ -5,22 +5,18 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <!-- <transition appear-active-class="animated slideInLeft" appear> -->
-            <img class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s" src="/static/img/home/swiper/banner1-suprobe-img.png">
-            <!-- </transition> -->
+            <img class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s" src="/static/img/home/swiper/banner1-suprobe-img.png">
           </div>
           <div class="col-md-6">
-            <transition enter-active-class="animated slideInRight" appear>
-              <section>
-                <!-- <a href="#" class="suprobe-font">
-                    <a href="#">立即订购</a>
-                  </a> -->
-                <h1>超级探针</h1>
-                <h2>Suprobe Home</h2>
-                <h3>创世版首发 品鉴邀请中</h3>
-                <a href="https://weidian.com/item.html?itemID=2621089563&p=iphone&wfr=wxBuyerShare&share_relation=3288c65866e6f5c6_192567885_1">立即订购</a>
-              </section>
-            </transition>
+            <section>
+              <!-- <a href="#" class="suprobe-font">
+                  <a href="#">立即订购</a>
+                </a> -->
+              <h1 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">超级探针</h1>
+              <h2 class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">Suprobe Home</h2>
+              <h3 class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">创世版首发 品鉴邀请中</h3>
+              <a class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s" href="https://weidian.com/item.html?itemID=2621089563&p=iphone&wfr=wxBuyerShare&share_relation=3288c65866e6f5c6_192567885_1">立即订购</a>
+            </section>
           </div>
         </div>
       </div>
@@ -92,8 +88,14 @@ export default {
           el: '.swiper-pagination',
           clickable: true
         },
-        slideChange: function () {
-          swiperAni.swiperAnimate(this)
+        on: {
+          init: function () {
+            swiperAni.swiperAnimateCache(this)
+            swiperAni.swiperAnimate(this)
+          },
+          slideChange: function () {
+            swiperAni.swiperAnimate(this)
+          }
         }
         // navigation: {
         //   nextEl: '.swiper-button-next',

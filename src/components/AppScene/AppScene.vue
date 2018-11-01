@@ -21,6 +21,7 @@ import {
   swiperSlide
 } from 'vue-awesome-swiper'
 import AppContent from '@/components/AppScene/AppContent.vue'
+import * as swiperAni from '@/assets/js/swiper.animate.min.js'
 export default {
   components: {
     swiper,
@@ -55,6 +56,15 @@ export default {
         pagination: {
           el: '.swiper-pagination',
           clickable: true
+        },
+        on: {
+          init: function () {
+            swiperAni.swiperAnimateCache(this)
+            swiperAni.swiperAnimate(this)
+          },
+          slideChange: function () {
+            swiperAni.swiperAnimate(this)
+          }
         }
       }
     }
