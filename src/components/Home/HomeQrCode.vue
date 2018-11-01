@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <section>
+        <section class="wow zoomIn">
           <h3>扫码关注【<span>超级探针</span>】微信公众号</h3>
         </section>
       </div>

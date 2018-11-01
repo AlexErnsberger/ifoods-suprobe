@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <article>
+        <article class="wow fadeInUp">
           <h3>超级探针城市合伙人
             期待你的加入
           </h3>

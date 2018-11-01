@@ -5,8 +5,8 @@
       <div class="row">
         <div class="col-md-12">
           <section>
-            <h2>超级探针城市合伙人亮点</h2>
-            <p>
+            <h2 class="wow fadeInUp">超级探针城市合伙人亮点</h2>
+            <p class="wow fadeInUp">
               让每一个投资者都成为生态的参与者
               让每一个合伙人能成为项目的推动者
               让每一个持有人能成为利益的获得者
@@ -20,18 +20,18 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <title-plugin :title="title"></title-plugin>
+          <title-plugin :title="title" class="wow fadeInDown"></title-plugin>
         </div>
       </div>
       <div class="row">
         <div class="col-md-4">
-          <content-plugin :data="spot1"></content-plugin>
+          <content-plugin :data="spot1" class="wow fadeInUp"></content-plugin>
         </div>
         <div class="col-md-4">
-          <content-plugin :data="spot2"></content-plugin>
+          <content-plugin :data="spot2" class="wow fadeInUp"></content-plugin>
         </div>
         <div class="col-md-4">
-          <content-plugin :data="spot3"></content-plugin>
+          <content-plugin :data="spot3" class="wow fadeInUp"></content-plugin>
         </div>
       </div>
     </div>
@@ -39,7 +39,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <p>
+            <p class="wow fadeInUp">
               熟悉超级探针的应用场景和市场前景
               有意向通过合伙人计划助力当地团队组建
             </p>
@@ -47,7 +47,7 @@
         </div>
         <div class="row">
           <div class="col-md-12">
-            <apply-button>立即申请</apply-button>
+            <apply-button class="wow fadeInUp">立即申请</apply-button>
           </div>
         </div>
       </div>

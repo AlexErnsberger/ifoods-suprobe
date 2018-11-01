@@ -3,8 +3,8 @@
   <section>
     <div class="row">
       <div class="col-md-12">
-        <h2>什么是超级探针城市合伙人？</h2>
-        <p>
+        <h2 class="wow fadeInUp">什么是超级探针城市合伙人？</h2>
+        <p class="wow fadeInUp">
           超级探针计划在全国招募城市合伙人
           基于食品安全质量检测生态建立利润分享机制
           奖励在<span>项目参与、硬件推广、理念传播</span>上有突出表现的超级探针持有者
@@ -16,18 +16,18 @@
     <div class="row">
       <div class="col-md-12">
         <!-- <img src="/static/img/citypnr/desc-view.png"> -->
-        <title-plugin :title="descTitle"></title-plugin>
+        <title-plugin :title="descTitle" class="wow fadeInDown"></title-plugin>
       </div>
     </div>
     <div class="row">
       <div class="col-md-4">
-        <content-plugin :data="descOne"></content-plugin>
+        <content-plugin :data="descOne" class="wow fadeInUp"></content-plugin>
       </div>
       <div class="col-md-4">
-        <content-plugin :data="descTwo"></content-plugin>
+        <content-plugin :data="descTwo" class="wow fadeInUp"></content-plugin>
       </div>
       <div class="col-md-4">
-        <content-plugin :data="descThree"></content-plugin>
+        <content-plugin :data="descThree" class="wow fadeInUp"></content-plugin>
       </div>
     </div>
   </section>

@@ -12,6 +12,7 @@ import HomeSwiper from '@/components/Home/HomeSwiper.vue'
 import HomeNews from '@/components/Home/HomeNews.vue'
 import HomeQrCode from '@/components/Home/HomeQrCode.vue'
 import HomePics from '@/components/Home/HomePics.vue'
+
 export default {
   components: {
     HomeSwiper,

@@ -2,7 +2,7 @@
 <div class="container" id="suprobe-news">
   <div class="row">
     <div class="col-md-4" v-for="(news, index) in newsList" :key="index">
-      <short-view-model :news="news" style="height:400px"></short-view-model>
+      <short-view-model :news="news" style="height:400px" class="wow flipInY"></short-view-model>
     </div>
   </div>
 </div>

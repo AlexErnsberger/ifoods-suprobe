@@ -1,12 +1,8 @@
 <template>
 <div id="home-pic">
   <section v-for="(desc,index) in picDesc" :key="index">
-    <pic-content :desc="desc"></pic-content>
+    <pic-content :desc="desc" class="wow slideInUp"></pic-content>
   </section>
-  <section></section>
-  <section></section>
-  <section></section>
-  <section></section>
 </div>
 </template>
 

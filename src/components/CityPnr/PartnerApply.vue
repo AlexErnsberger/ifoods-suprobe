@@ -4,20 +4,20 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <title-plugin :title="headTit" hasbg></title-plugin>
+          <title-plugin :title="headTit" hasbg class="wow fadeInDown"></title-plugin>
         </div>
       </div>
       <div class="row">
         <div class="col-md-6">
           <section class="left">
-            <p>提交区域营销计划，团队情况说明等，证实团队实力</p>
-            <p>入选合伙人将获得超级探针提供的相关产品资料，并提供完整话术培训确认</p>
+            <p class="wow fadeInLeft">提交区域营销计划，团队情况说明等，证实团队实力</p>
+            <p class="wow fadeInLeft">入选合伙人将获得超级探针提供的相关产品资料，并提供完整话术培训确认</p>
           </section>
         </div>
         <div class="col-md-6">
           <section class="right">
-            <p>提交区域营销计划，团队情况说明等，证实团队实力</p>
-            <p>入选合伙人将获得超级探针提供的相关产品资料，并提供完整话术培训确认</p>
+            <p class="wow fadeInRight">根据合伙人招募要求，评审选出符合合伙人条件的候选人</p>
+            <p class="wow fadeInRight">超级探针与合伙人备选人进行深入合作意向洽谈，并确认合作计划</p>
           </section>
         </div>
       </div>
@@ -27,12 +27,12 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <title-plugin :title="progTit"></title-plugin>
+          <title-plugin :title="progTit" class="wow fadeInDown"></title-plugin>
         </div>
       </div>
       <div class="row">
         <div class="col-md-6">
-          <section>
+          <section class="wow fadeInLeft">
             <header>
               <h3>城市合伙人预选</h3>
               <h3>9月</h3>
@@ -45,7 +45,7 @@
       </div>
       <div class="row">
         <div class="col-md-6 col-md-offset-6">
-          <section class="right">
+          <section class="right wow fadeInRight">
             <header>
               <h3>城市合伙人复审</h3>
               <h3>10月</h3>
@@ -58,7 +58,7 @@
       </div>
       <div class="row">
         <div class="col-md-6">
-          <section>
+          <section class="wow fadeInLeft">
             <header>
               <h3>城市合伙人确认</h3>
               <h3>11月</h3>
