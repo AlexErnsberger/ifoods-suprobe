@@ -3,23 +3,23 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <aside>
+        <aside class="wow fadeInDown">
           <img src="/static/img/home/app.png">
-          </aside>
+        </aside>
       </div>
       <div class="col-md-6">
         <article>
-          <h2>超级探针APP下载</h2>
-          <section>
-            <img src="/static/img/home/download-qrcode.png">
+          <h2 class="wow fadeInDown">超级探针APP下载</h2>
+          <section class="wow fadeInLeft">
+            <img src="/static/img/home/download-qrcode.png" >
             <a href="#">
                 <i class="icon iconfont">&#xe68c;</i>
                 <span>IOS(敬请期待)</span>
               </a>
           </section>
-          <section>
-            <img src="/static/img/home/download-qrcode.png">
-            <a href="#">
+          <section class="wow fadeInRight">
+            <img src="/static/img/home/download-qrcode.png" >
+            <a href="#" >
                 <i class="icon iconfont">&#xe68d;</i>
                 <span>Andriod(敬请期待)</span>
               </a>

@@ -2,25 +2,25 @@
 <div class="container">
   <div class="row">
     <div class="col-md-3">
-      <a href="#">
+      <a href="#" class="wow fadeInDown">
           <i class="icon iconfont">&#xe669;</i>
           预约维修服务
         </a>
     </div>
     <div class="col-md-3">
-      <a href="#">
+      <a href="#" class="wow fadeInDown">
           <i class="icon iconfont">&#xe63a;</i>
           7天无理由退货
         </a>
     </div>
     <div class="col-md-3">
-      <a href="#">
+      <a href="#" class="wow fadeInDown">
           <i class="icon iconfont">&#xe802;</i>
           15天免费换货
         </a>
     </div>
     <div class="col-md-3">
-      <a href="#">
+      <a href="#" class="wow fadeInDown">
           <i class="icon iconfont">&#xe72d;</i>
           产品包邮服务
         </a>
