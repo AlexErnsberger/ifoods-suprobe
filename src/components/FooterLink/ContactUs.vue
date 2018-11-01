@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import MainModel from '@/components/Home/SubPage/Plugins/MainModel.vue'
+import MainModel from '@/components/FooterLink/Plugins/MainModel.vue'
 export default {
   components: {
     MainModel

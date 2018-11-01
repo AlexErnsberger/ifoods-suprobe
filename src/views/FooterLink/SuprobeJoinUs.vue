@@ -1,12 +1,12 @@
 <template>
-  <about-us></about-us>
+  <join-us></join-us>
 </template>
 
 <script>
-import AboutUs from '@/components/Home/SubPage/AboutUs.vue'
+import JoinUs from '@/components/FooterLink/JoinUs.vue'
 export default {
   components: {
-    AboutUs
+    JoinUs
   }
 }
 </script>

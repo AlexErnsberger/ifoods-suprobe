@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import SalePolicy from '@/components/Home/SubPage/SalePolicy.vue'
+import SalePolicy from '@/components/FooterLink/SalePolicy.vue'
 export default {
   components: {
     SalePolicy

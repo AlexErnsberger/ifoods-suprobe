@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import ContactUs from '@/components/Home/SubPage/ContactUs.vue'
+import ContactUs from '@/components/FooterLink/ContactUs.vue'
 export default {
   components: {
     ContactUs

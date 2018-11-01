@@ -18,9 +18,9 @@
 </template>
 
 <script>
-import ArticleModel from '@/components/Home/SubPage/Plugins/ArticleModel.vue'
-import ProgressModel from '@/components/Home/SubPage/Plugins/ProgressModel.vue'
-import SlideModel from '@/components/Home/SubPage/Plugins/SlideModel.vue'
+import ArticleModel from '@/components/FooterLink/Plugins/ArticleModel.vue'
+import ProgressModel from '@/components/FooterLink/Plugins/ProgressModel.vue'
+import SlideModel from '@/components/FooterLink/Plugins/SlideModel.vue'
 export default {
   components: {
     ArticleModel, ProgressModel, SlideModel

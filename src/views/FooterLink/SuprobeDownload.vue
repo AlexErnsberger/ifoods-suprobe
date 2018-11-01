@@ -1,12 +1,12 @@
 <template>
-  <news></news>
+  <download></download>
 </template>
 
 <script>
-import News from '@/components/Home/SubPage/News.vue'
+import Download from '@/components/FooterLink/Download.vue'
 export default {
   components: {
-    News
+    Download
   }
 }
 </script>

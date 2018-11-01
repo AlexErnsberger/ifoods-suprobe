@@ -1,12 +1,12 @@
 <template>
-  <f-a-q></f-a-q>
+  <about-us></about-us>
 </template>
 
 <script>
-import FAQ from '@/components/Home/SubPage/FAQ.vue'
+import AboutUs from '@/components/FooterLink/AboutUs.vue'
 export default {
   components: {
-    FAQ
+    AboutUs
   }
 }
 </script>

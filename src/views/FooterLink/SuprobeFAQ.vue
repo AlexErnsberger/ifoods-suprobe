@@ -1,12 +1,12 @@
 <template>
-  <download></download>
+  <f-a-q></f-a-q>
 </template>
 
 <script>
-import Download from '@/components/Home/SubPage/Download.vue'
+import FAQ from '@/components/FooterLink/FAQ.vue'
 export default {
   components: {
-    Download
+    FAQ
   }
 }
 </script>
