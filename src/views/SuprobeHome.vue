@@ -12,14 +12,15 @@ import HomeSwiper from '@/components/Home/HomeSwiper.vue'
 import HomeNews from '@/components/Home/HomeNews.vue'
 import HomeQrCode from '@/components/Home/HomeQrCode.vue'
 import HomePics from '@/components/Home/HomePics.vue'
-
+import classmix from '@/mixin/mixin.js'
 export default {
   components: {
     HomeSwiper,
     HomeNews,
     HomeQrCode,
     HomePics
-  }
+  },
+  mixins: [classmix]
 }
 </script>
 

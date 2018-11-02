@@ -4,10 +4,12 @@
 
 <script>
 import ContactUs from '@/components/FooterLink/ContactUs.vue'
+import classmix from '@/mixin/mixin.js'
 export default {
   components: {
     ContactUs
-  }
+  },
+  mixins: [classmix]
 }
 </script>
 

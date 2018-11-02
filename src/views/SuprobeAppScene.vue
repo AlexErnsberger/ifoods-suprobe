@@ -4,10 +4,12 @@
 
 <script>
 import AppScene from '@/components/AppScene/AppScene.vue'
+import classmix from '@/mixin/mixin.js'
 export default {
   components: {
     AppScene
-  }
+  },
+  mixins: [classmix]
 }
 </script>
 

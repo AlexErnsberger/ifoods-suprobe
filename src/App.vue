@@ -9,15 +9,11 @@
 <script>
 import SuprobeHeader from '@/components/Header/Header.vue'
 import SuprobeFooter from '@/components/Footer/Footer.vue'
-import {WOW} from 'wowjs'
 export default {
   name: 'App',
   components: {
     SuprobeHeader,
     SuprobeFooter
-  },
-  mounted () {
-    new WOW().init()
   }
 }
 </script>

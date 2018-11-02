@@ -14,6 +14,7 @@ import PartnerFooter from '@/components/CityPnr/PartnerFooter.vue'
 import PartnerDesc from '@/components/CityPnr/PartnerDesc.vue'
 import PartnerSpot from '@/components/CityPnr/PartnerSpot.vue'
 import PartnerApply from '@/components/CityPnr/PartnerApply.vue'
+import classmix from '@/mixin/mixin.js'
 export default {
   components: {
     PartnerHead,
@@ -21,7 +22,8 @@ export default {
     PartnerDesc,
     PartnerSpot,
     PartnerApply
-  }
+  },
+  mixins: [classmix]
 }
 </script>
 

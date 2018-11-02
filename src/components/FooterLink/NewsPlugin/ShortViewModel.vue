@@ -36,7 +36,6 @@ div.news-model {
   border-radius: 4px;
   overflow: hidden;
   box-shadow: 0 8px 24px rgba(0, 0, 0, .12);
-
   a {
     display: block;
     text-decoration: none;
@@ -88,6 +87,7 @@ div.news-model {
       line-height: 1.5;
       word-break: break-all;
       overflow: hidden;
+      height: 4.5em;
 
       a {
         font-size: .9em;

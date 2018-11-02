@@ -4,10 +4,12 @@
 
 <script>
 import SalePolicy from '@/components/FooterLink/SalePolicy.vue'
+import classmix from '@/mixin/mixin.js'
 export default {
   components: {
     SalePolicy
-  }
+  },
+  mixins: [classmix]
 }
 </script>
 

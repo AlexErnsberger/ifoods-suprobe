@@ -3,10 +3,10 @@
   <div class="row">
     <div class="col-md-6" :class="{'col-md-push-6':desc.right}">
       <article>
-        <h1>{{desc.name}}</h1>
-        <h2 v-if="desc.post">{{desc.post}}</h2>
-        <h3>{{desc.age}}</h3>
-        <p>{{desc.info}}</p>
+        <h1  class="wow slideInDown">{{desc.name}}</h1>
+        <h2  class="wow slideInDown" v-if="desc.post">{{desc.post}}</h2>
+        <h3  class="wow slideInDown">{{desc.age}}</h3>
+        <p  class="wow slideInUp">{{desc.info}}</p>
       </article>
     </div>
   </div>
