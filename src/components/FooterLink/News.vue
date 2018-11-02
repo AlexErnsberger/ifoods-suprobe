@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8">
-        <short-view-model :news="laterlyNews"  class="wow slideInUp"></short-view-model>
+        <short-view-model :news="laterlyNews"  class="wow slideInUp" ></short-view-model>
       </div>
       <div class="col-md-4">
         <logo-model></logo-model>
@@ -11,7 +11,7 @@
     </div>
     <div class="row">
       <div class="col-md-4" v-for="(news,index) in newsList" :key="index">
-        <short-view-model :news="news" style="height:400px"  class="wow slideInUp"></short-view-model>
+        <short-view-model :news="news" style="height:400px;"  class="wow slideInUp"></short-view-model>
       </div>
     </div>
   </div>

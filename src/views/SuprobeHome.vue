@@ -1,7 +1,7 @@
 <template>
 <div id="suprobe-home">
   <home-swiper></home-swiper>
-  <home-pics></home-pics>
+  <!-- <home-pics></home-pics> -->
   <home-news></home-news>
   <home-qr-code></home-qr-code>
 </div>
