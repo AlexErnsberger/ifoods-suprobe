@@ -119,7 +119,7 @@ export default {
   }
 
   &>article {
-    .content;
+    .mixin-content;
 
     footer {
       color: white;

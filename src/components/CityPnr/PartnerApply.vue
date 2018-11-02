@@ -155,7 +155,7 @@ export default {
   }
 
   &>section {
-    .content;
+    .mixin-content;
 
     .row:not(:first-child) {
       background: linear-gradient(to bottom, @common-color) no-repeat;

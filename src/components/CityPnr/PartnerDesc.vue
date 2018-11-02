@@ -70,7 +70,7 @@ export default {
 
 <style lang="less" scoped>
 #pnr-desc {
-  .content;
+  .mixin-content;
 
   section:nth-of-type(1) {
     line-height: 2.4;
