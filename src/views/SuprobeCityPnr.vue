@@ -14,7 +14,7 @@ import PartnerFooter from '@/components/CityPnr/PartnerFooter.vue'
 import PartnerDesc from '@/components/CityPnr/PartnerDesc.vue'
 import PartnerSpot from '@/components/CityPnr/PartnerSpot.vue'
 import PartnerApply from '@/components/CityPnr/PartnerApply.vue'
-import classmix from '@/mixin/mixin.js'
+import classmix from '@/mixin/mixin-wow.js'
 export default {
   components: {
     PartnerHead,

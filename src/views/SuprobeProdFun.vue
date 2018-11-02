@@ -4,7 +4,7 @@
 
 <script>
 import ProdFunc from '@/components/ProdFun/ProdFun.vue'
-import classmix from '@/mixin/mixin.js'
+import classmix from '@/mixin/mixin-wow.js'
 export default {
   components: {
     ProdFunc

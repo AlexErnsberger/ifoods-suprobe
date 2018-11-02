@@ -4,7 +4,7 @@
 
 <script>
 import SalePolicy from '@/components/FooterLink/SalePolicy.vue'
-import classmix from '@/mixin/mixin.js'
+import classmix from '@/mixin/mixin-wow.js'
 export default {
   components: {
     SalePolicy

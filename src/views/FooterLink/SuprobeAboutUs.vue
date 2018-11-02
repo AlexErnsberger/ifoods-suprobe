@@ -4,7 +4,7 @@
 
 <script>
 import AboutUs from '@/components/FooterLink/AboutUs.vue'
-import classmix from '@/mixin/mixin.js'
+import classmix from '@/mixin/mixin-wow.js'
 export default {
   components: {
     AboutUs

@@ -4,7 +4,7 @@
 
 <script>
 import ProdFeat from '@/components/ProdFeat/ProdFeat.vue'
-import classmix from '@/mixin/mixin.js'
+import classmix from '@/mixin/mixin-wow.js'
 export default {
   components: {
     ProdFeat

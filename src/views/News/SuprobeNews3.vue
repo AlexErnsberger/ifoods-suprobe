@@ -67,7 +67,7 @@
 
 <script>
 import ArticleModel from '@/components/FooterLink/NewsPlugin/ArticleModel.vue'
-import classmix from '@/mixin/mixin.js'
+import classmix from '@/mixin/mixin-wow.js'
 export default {
   components: {
     ArticleModel

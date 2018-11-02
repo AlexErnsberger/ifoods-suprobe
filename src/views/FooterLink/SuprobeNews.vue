@@ -4,7 +4,7 @@
 
 <script>
 import News from '@/components/FooterLink/News.vue'
-import classmix from '@/mixin/mixin.js'
+import classmix from '@/mixin/mixin-wow.js'
 export default {
   components: {
     News

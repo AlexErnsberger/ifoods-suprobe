@@ -4,7 +4,7 @@
 
 <script>
 import Suprobe from '@/components/Model/Suprobe.vue'
-import classmix from '@/mixin/mixin.js'
+import classmix from '@/mixin/mixin-wow.js'
 export default {
   components: {
     Suprobe

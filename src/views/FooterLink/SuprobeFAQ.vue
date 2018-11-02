@@ -4,7 +4,7 @@
 
 <script>
 import FAQ from '@/components/FooterLink/FAQ.vue'
-import classmix from '@/mixin/mixin.js'
+import classmix from '@/mixin/mixin-wow.js'
 export default {
   components: {
     FAQ

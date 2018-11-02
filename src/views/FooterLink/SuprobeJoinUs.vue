@@ -4,7 +4,7 @@
 
 <script>
 import JoinUs from '@/components/FooterLink/JoinUs.vue'
-import classmix from '@/mixin/mixin.js'
+import classmix from '@/mixin/mixin-wow.js'
 export default {
   components: {
     JoinUs
