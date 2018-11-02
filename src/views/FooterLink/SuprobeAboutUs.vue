@@ -9,7 +9,7 @@ export default {
   components: {
     AboutUs
   },
-  mixins:[classmix]
+  mixins: [classmix]
 }
 </script>
 

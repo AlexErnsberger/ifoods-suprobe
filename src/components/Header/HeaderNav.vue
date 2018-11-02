@@ -2,12 +2,12 @@
 <nav>
   <ul>
     <li>
-      <router-link to="/" exact>
+      <router-link to="/" tag="a" exact>
         <span>首页</span>
       </router-link>
     </li>
     <li v-for="(nav,index) in navArray" :key="index">
-      <router-link :to="nav.path">
+      <router-link tag="a" :to="nav.path">
         <span>{{nav.name}}</span>
       </router-link>
     </li>

@@ -58,10 +58,12 @@
 
 <script>
 import ArticleModel from '@/components/FooterLink/NewsPlugin/ArticleModel.vue'
+import classmix from '@/mixin/mixin.js'
 export default {
   components: {
     ArticleModel
-  }
+  },
+  mixins: [classmix]
 }
 </script>
 

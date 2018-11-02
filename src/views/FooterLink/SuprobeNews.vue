@@ -9,7 +9,7 @@ export default {
   components: {
     News
   },
-  mixins:[classmix]
+  mixins: [classmix]
 }
 </script>
 

@@ -80,9 +80,11 @@ div.news-model {
     }
 
     p {
+      /* autoprefixer: off */
       display: -webkit-box;
       -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
+      /* autoprefixer: on */
       text-align: justify;
       line-height: 1.5;
       word-break: break-all;
