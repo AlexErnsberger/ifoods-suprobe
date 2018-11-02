@@ -168,7 +168,7 @@ export default {
   }
 
   &.slide-2 {
-    .mixin-bg(@url: url(/static/img/home/swiper/banner2.png);
+    .mixin-bg(@url: url(/static/img/home/swiper/banner2.jpg);
     @height: @common-bg-height);
     .mixin-center;
     color: white;
@@ -176,7 +176,7 @@ export default {
   }
 
   &.slide-3 {
-    .mixin-bg(@url: url(/static/img/home/swiper/banner3.png);
+    .mixin-bg(@url: url(/static/img/home/swiper/banner3.jpg);
     @height: @common-bg-height);
     .mixin-center;
     color: #e3a53c;

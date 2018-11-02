@@ -50,17 +50,17 @@ export default {
       },
       descOne: {
         topSrc: '/static/img/citypnr/desc/desc-icon1.png',
-        bgSrc: '/static/img/citypnr/desc/desc-bg1.png',
+        bgSrc: '/static/img/citypnr/desc/desc-bg1.jpg',
         cont: '受消费升级影响，国务院先后印发《“十三五”国家食品安全规划》，将食品安全纳入健康中国建设，多次强调要实施食品安全战略，让人民群众吃的放心。'
       },
       descTwo: {
         topSrc: '/static/img/citypnr/desc/desc-icon2.png',
-        bgSrc: '/static/img/citypnr/desc/desc-bg2.png',
+        bgSrc: '/static/img/citypnr/desc/desc-bg2.jpg',
         cont: '人民日报、工信部等则相继出文指出，区块链将成为社会发展动力的主轴，且区块链的发展速度将得到快速提升。'
       },
       descThree: {
         topSrc: '/static/img/citypnr/desc/desc-icon3.png',
-        bgSrc: '/static/img/citypnr/desc/desc-bg3.png',
+        bgSrc: '/static/img/citypnr/desc/desc-bg3.jpg',
         cont: '超级探针等食品质量检测智能硬件，可帮助消费者打破食品消费的知情权盲区，重建食品消费习惯，让消费者成为食品品质标准制定者。'
       }
     }

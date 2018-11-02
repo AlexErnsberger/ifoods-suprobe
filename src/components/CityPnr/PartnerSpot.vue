@@ -99,7 +99,7 @@ export default {
 #pnr-spot {
   &>header {
     .mixin-center;
-    .mixin-bg(@url: url(/static/img/citypnr/spot/bg-spot.png);
+    .mixin-bg(@url: url(/static/img/citypnr/spot/bg-spot.jpg);
     @height: @common-bg-height);
     color: white;
     line-height: @citypnr-lh;

@@ -117,7 +117,7 @@ export default {
 /**style*/
 #pnr-apply {
   &>header {
-    .mixin-bg(@url: url(/static/img/citypnr/bg-apply.png);
+    .mixin-bg(@url: url(/static/img/citypnr/bg-apply.jpg);
     @height: @common-bg-height);
     .mixin-center;
 

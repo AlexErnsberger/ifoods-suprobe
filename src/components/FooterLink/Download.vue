@@ -18,10 +18,10 @@
               </a>
           </section>
           <section class="wow fadeInRight">
-            <img src="/static/img/home/download-qrcode.png" >
-            <a href="#" >
+            <img src="/static/img/home/download-andriod.png" >
+            <a href="https://www.ifoodschain.com/download/android/suprobe-android-V1.0.4.apk" >
                 <i class="icon iconfont">&#xe68d;</i>
-                <span>Andriod(敬请期待)</span>
+                <span>Andriod</span>
               </a>
           </section>
         </article>
@@ -39,7 +39,7 @@ export default {
 
 <style lang="less" scoped>
 #download {
-  .mixin-bg(@url: url(/static/img/home/download.png);
+  .mixin-bg(@url: url(/static/img/home/download.jpg);
   @height: @common-fullscreen-height);
   .mixin-center;
 

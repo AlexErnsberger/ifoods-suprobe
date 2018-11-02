@@ -26,7 +26,7 @@ export default {
 
 <style lang="less" scoped>
 #pnr-footer {
-  .mixin-bg(@url: url(/static/img/citypnr/bg-footer.png);
+  .mixin-bg(@url: url(/static/img/citypnr/bg-footer.jpg);
   @height: @common-bg-height);
   .mixin-center;
   color: white;

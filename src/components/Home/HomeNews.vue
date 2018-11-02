@@ -54,27 +54,5 @@ export default {
 <style lang="less">
 #suprobe-news {
   padding: 50px 0;
-  // a{
-  //   display: inline-block;
-  //   position: relative;
-  //   padding: 10px;
-  //   border-radius: 20px;
-  //   box-shadow: 0 1px 5px 0 rgba(0,0,0,.2);
-  //   margin: 10px;
-  //   img{
-  //     float: left;
-  //   }
-  //   h3{
-  //     float: right;
-  //     color: @home-fs-color;
-  //     font-size: 1.2em;
-  //     text-align: left;
-  //     width: 60%;
-  //   }
-  // }
-  // a:hover{
-  //   text-decoration: none;
-  //   box-shadow: 0 1px 5px 1px rgba(0,0,0,.5);
-  // }
 }
 </style>
