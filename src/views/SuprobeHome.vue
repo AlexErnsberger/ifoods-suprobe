@@ -25,5 +25,6 @@ export default {
 </script>
 
 <style lang="less" scoped>
-#suprobe-home {}
+#suprobe-home {
+}
 </style>

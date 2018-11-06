@@ -31,7 +31,7 @@ export default {
 
 <style lang="less" scoped>
 div.news-model {
-  margin: auto;
+  margin: 10px 0;
   border-color: @home-fs-color-lighter;
   border-radius: 4px;
   overflow: hidden;

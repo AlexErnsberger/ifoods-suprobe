@@ -4,6 +4,7 @@
     <div class="row">
       <div class="col-md-12">
         <section class="wow zoomIn">
+          <img src="/static/img/home/qrcode.jpg">
           <h3>扫码关注【<span>超级探针</span>】微信公众号</h3>
         </section>
       </div>
@@ -23,22 +24,17 @@ export default {
   background: @home-bg-color;
   padding: 20px 0;
 
+  img{
+    max-width: 100%;
+    margin-right: 1em;
+  }
+
   h3 {
     display: inline-block;
     font-size: 1.6em;
-
+    vertical-align: middle;
     span {
       color: @common-color;
-    }
-
-    &::before {
-      content: '';
-      display: inline-block;
-      background: url(/static/img/home/qrcode.jpg) no-repeat center/100% 100%;
-      vertical-align: middle;
-      margin-right: 1em;
-      width: 4em;
-      height: 4em;
     }
   }
 }

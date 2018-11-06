@@ -2,21 +2,17 @@
 <div id="suprobe">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
-        <transition appear-active-class="animated slideInLeft" appear>
-          <article>
-            <h1>超级探针</h1>
-            <p>由Ifood chain智能硬件实验室研发
-              针对肉类质量检测的智能设备</p>
-          </article>
-        </transition>
+      <div class="col-sm-12 col-md-6">
+        <article class="wow fadeInLeft">
+          <h1>超级探针</h1>
+          <p>由Ifood chain智能硬件实验室研发
+            针对肉类质量检测的智能设备</p>
+        </article>
       </div>
-      <div class="col-md-6">
-        <transition appear-active-class="animated slideInRight" appear>
-          <aside>
-            <img src="/static/img/model/superprode.png">
-            </aside>
-        </transition>
+      <div class="col-sm-12 col-md-6">
+        <aside class="wow fadeInRight">
+          <img src="/static/img/model/superprode.png">
+        </aside>
       </div>
     </div>
   </div>

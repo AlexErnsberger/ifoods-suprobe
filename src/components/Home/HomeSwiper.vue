@@ -109,8 +109,6 @@ export default {
 
 <style lang="less" scoped>
 .swiper-slide {
-  margin-top: 70px;
-
   &.slide-1 {
     .mixin-bg(@url: url(/static/img/home/swiper/banner1.png);
     @height: @common-bg-height);

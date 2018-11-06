@@ -41,7 +41,10 @@ ul{
   li{
     list-style-type: none;
     text-align: left;
-    margin-top: 2em;
+    margin: 1em;
+    @media only screen and (max-width:768px){
+      display: inline-block;
+    }
     a{
       display: inline-block;
       font-size: 2em;
@@ -69,4 +72,5 @@ ul{
     }
   }
 }
+
 </style>

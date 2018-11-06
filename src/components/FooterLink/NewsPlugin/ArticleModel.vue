@@ -13,7 +13,9 @@ export default {
 <style lang="less" scoped>
 article {
   padding: 5em 20em;
-
+  @media only screen and (max-width:768px){
+    padding:0;
+  }
   h3,
   h4,
   h6,

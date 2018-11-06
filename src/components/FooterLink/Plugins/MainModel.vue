@@ -2,12 +2,12 @@
 <section>
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-xs-12 col-md-4">
         <nav>
           <a href="#" v-for="(tab,index) in tabs" :key="index" @click.prevent="choose(tab)" :class="{'active':currentTab == tab}">{{tab.title}}</a>
         </nav>
       </div>
-      <div class="col-md-8">
+      <div class="col-xs-12 col-md-8">
         <normal-model v-if="currentTab.type=='article'" :title="currentTab.title" :content="currentTab.content"></normal-model>
         <progress-model v-if="currentTab.type=='progress'" :progress="currentTab.content"></progress-model>
         <slide-model v-if="currentTab.type=='slide'" :slide="currentTab.content"></slide-model>
@@ -57,13 +57,10 @@ section {
   .container {
     .row>div {
       padding: 50px 0;
-
-      &:last-child {
-        height: 45em;
-        overflow: auto;
+      @media only screen and (max-width:768px){
+        padding:0;
       }
     }
-
     nav {
       a {
         display: block;

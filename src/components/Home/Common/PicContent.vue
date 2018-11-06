@@ -22,7 +22,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-@h-fs: 2em;
+@h-fs: 2vw;
 
 article {
   background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, .3));
@@ -50,6 +50,7 @@ article {
   }
 
   p {
+    font-size: @h-fs/2;
     line-height: 2;
   }
 }

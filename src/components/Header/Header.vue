@@ -1,11 +1,11 @@
 <template>
-<header>
+<header id="suprobe-header">
   <div class="container">
     <div class="row">
-      <div class="col-md-4 text-left">
+      <div class="col-xs-2 col-md-2 text-left">
         <header-logo></header-logo>
       </div>
-      <div class="col-md-8 text-right">
+      <div class="col-xs-10 col-md-10 text-right">
         <header-nav></header-nav>
       </div>
     </div>
@@ -30,7 +30,7 @@ header {
   width: 100%;
   min-height: 70px;
   padding: 10px;
-  background: #f8f8f8;
+  background: @header-bg-color;
   z-index: 2;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
 

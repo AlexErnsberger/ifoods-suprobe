@@ -1,6 +1,7 @@
 <template>
 <div id="app">
   <suprobe-header></suprobe-header>
+  <div class="placeholder"></div>
   <router-view />
   <suprobe-footer></suprobe-footer>
 </div>
@@ -18,11 +19,13 @@ export default {
 }
 </script>
 
-<style>
+<style lang="less" scoped>
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  height: 100%;
+  div.placeholder{
+    height: 70px;// 标题fixed占位符
+  }
 }
 </style>

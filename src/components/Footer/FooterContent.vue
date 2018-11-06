@@ -1,7 +1,7 @@
 <template>
 <div class="container">
   <div class="row">
-    <div class="col-md-3">
+    <div class="col-xs-4 col-md-3">
       <nav>
         <h5 class="wow fadeInDown">关于我们</h5>
         <router-link tag="a" to="/aboutus" class="wow fadeInDown">了解我们</router-link>
@@ -9,7 +9,7 @@
         <router-link tag="a" to="/joinus" class="wow fadeInDown">加入我们</router-link>
       </nav>
     </div>
-    <div class="col-md-3">
+    <div class="col-xs-4 col-md-3">
       <nav>
         <h5 class="wow fadeInDown">关注我们</h5>
         <a target="_blank" href="https://weibo.com/6544925985/profile?topnav=1&wvr=6" class="wow fadeInDown">新浪微博</a>
@@ -17,15 +17,15 @@
         <router-link tag="a" to="/contactus" class="wow fadeInDown">联系我们</router-link>
       </nav>
     </div>
-    <div class="col-md-3">
+    <div class="col-xs-4 col-md-3">
       <nav>
-        <h5 class="wow fadeInDown">关于我们</h5>
+        <h5 class="wow fadeInDown">服务支持</h5>
         <router-link tag="a" to="/faq" class="wow fadeInDown">常见问题</router-link>
         <router-link tag="a" to="/salepolicy" class="wow fadeInDown">售后政策</router-link>
         <router-link tag="a" to="/download" class="wow fadeInDown">相关下载</router-link>
       </nav>
     </div>
-    <div class="col-md-3">
+    <div class="col-xs-12 col-md-3">
       <address>
           <h4 class="wow fadeInDown">010-57212947</h4>
           <span class="wow fadeInDown">周一至周日:09:00-21:00</span>

@@ -23,7 +23,7 @@ header {
   max-width: 34em;
   color: @common-color;
   margin: auto;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
 
   h2 {
     display: inline-block;

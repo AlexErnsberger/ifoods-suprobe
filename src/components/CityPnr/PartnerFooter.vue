@@ -1,6 +1,5 @@
 <template>
-<div id="pnr-footer">
-  <div class="container">
+  <div class="container" id="pnr-footer">
     <div class="row">
       <div class="col-md-12">
         <article class="wow fadeInUp">
@@ -12,7 +11,6 @@
       </div>
     </div>
   </div>
-</div>
 </template>
 
 <script>

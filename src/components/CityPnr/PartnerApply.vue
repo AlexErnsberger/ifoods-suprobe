@@ -3,18 +3,18 @@
   <header>
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-sm-12 col-md-12">
           <title-plugin :title="headTit" hasbg class="wow fadeInDown"></title-plugin>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-sm-12 col-md-6">
           <section class="left">
             <p class="wow fadeInLeft">提交区域营销计划，团队情况说明等，证实团队实力</p>
             <p class="wow fadeInLeft">入选合伙人将获得超级探针提供的相关产品资料，并提供完整话术培训确认</p>
           </section>
         </div>
-        <div class="col-md-6">
+        <div class="col-sm-12 col-md-6">
           <section class="right">
             <p class="wow fadeInRight">根据合伙人招募要求，评审选出符合合伙人条件的候选人</p>
             <p class="wow fadeInRight">超级探针与合伙人备选人进行深入合作意向洽谈，并确认合作计划</p>
@@ -34,8 +34,7 @@
         <div class="col-md-6">
           <section class="wow fadeInLeft">
             <header>
-              <h3>城市合伙人预选</h3>
-              <h3>9月</h3>
+              <h3>城市合伙人预选</h3><h3>9月</h3>
               <h3></h3>
             </header>
             <p>官方账号+媒体联动+城市宣讲
@@ -47,8 +46,7 @@
         <div class="col-md-6 col-md-offset-6">
           <section class="right wow fadeInRight">
             <header>
-              <h3>城市合伙人复审</h3>
-              <h3>10月</h3>
+              <h3>城市合伙人复审</h3><h3>10月</h3>
               <h3></h3>
             </header>
             <p>项目方根据申请人递交资质，筛选第
@@ -60,8 +58,7 @@
         <div class="col-md-6">
           <section class="wow fadeInLeft">
             <header>
-              <h3>城市合伙人确认</h3>
-              <h3>11月</h3>
+              <h3>城市合伙人确认</h3><h3>11月</h3>
               <h3></h3>
             </header>
             <p>城市合伙人名单确认，计划正式实施</p>
@@ -97,7 +94,6 @@ export default {
 <style lang="less" scoped>
 /**mixin*/
 .progress-section {
-  margin-top: -80px;
   color: white;
 }
 
@@ -183,7 +179,7 @@ export default {
       }
 
       h3:nth-of-type(3) {
-        width: 2em;
+        width: 1.95em;
         height: 1em;
         position: absolute;
         background: linear-gradient(to right, @common-color 50%, white 0);

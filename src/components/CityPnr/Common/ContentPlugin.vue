@@ -2,12 +2,12 @@
 <div>
   <figure>
     <img :src="data.topSrc">
-    </figure>
-    <img :src="data.bgSrc">
-    <article>
-      <h4 v-if="data.contTit">{{data.contTit}}</h4>
-      <p>{{data.cont}}</p>
-    </article>
+  </figure>
+  <img :src="data.bgSrc">
+  <article>
+    <h4 v-if="data.contTit">{{data.contTit}}</h4>
+    <p>{{data.cont}}</p>
+  </article>
 </div>
 </template>
 
@@ -27,7 +27,7 @@ div {
   border: 1px solid #e1e1e1;
   border-radius: @radius;
   color: #7c7770;
-
+  margin: 50px 0;
   img {
     max-width: 100%;
     border-radius: @radius @radius 0 0;

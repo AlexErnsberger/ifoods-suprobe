@@ -19,18 +19,20 @@
   <article>
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-sm-12 col-md-12">
           <title-plugin :title="title" class="wow fadeInDown"></title-plugin>
         </div>
       </div>
+    </div>
+    <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-sm-12 col-md-4">
           <content-plugin :data="spot1" class="wow fadeInUp"></content-plugin>
         </div>
-        <div class="col-md-4">
+        <div class="col-sm-12 col-md-4">
           <content-plugin :data="spot2" class="wow fadeInUp"></content-plugin>
         </div>
-        <div class="col-md-4">
+        <div class="col-sm-12 col-md-4">
           <content-plugin :data="spot3" class="wow fadeInUp"></content-plugin>
         </div>
       </div>
@@ -38,15 +40,17 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-sm-12 col-md-12">
             <p class="wow fadeInUp">
               熟悉超级探针的应用场景和市场前景
               有意向通过合伙人计划助力当地团队组建
             </p>
           </div>
         </div>
+      </div>
+      <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-sm-12 col-md-12">
             <apply-button class="wow fadeInUp">立即申请</apply-button>
           </div>
         </div>

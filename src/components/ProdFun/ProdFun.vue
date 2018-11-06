@@ -1,14 +1,12 @@
 <template>
 <div id="prodFunc">
-  <div class="contain">
+  <div class="container">
     <div class="row">
       <div class="col-md-5 col-md-offset-7">
-        <transition appear-active-class="animated slideInRight" appear>
-          <article>
-            <h2>产品功能</h2>
-            <p>超级探针是基于可信的食品数据模型，对待检测的食品进行数据采集，并可以上传食品检测，位置等脱敏数据的分布式设备，也是Ifoods Chain智能硬件实验室研制的针对肉类食品检测的成熟应用形式。</p>
-          </article>
-        </transition>
+        <article class="wow fadeInRight">
+          <h2>产品功能</h2>
+          <p>超级探针是基于可信的食品数据模型，对待检测的食品进行数据采集，并可以上传食品检测，位置等脱敏数据的分布式设备，也是Ifoods Chain智能硬件实验室研制的针对肉类食品检测的成熟应用形式。</p>
+        </article>
       </div>
     </div>
   </div>

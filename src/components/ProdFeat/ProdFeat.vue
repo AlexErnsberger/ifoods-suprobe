@@ -3,40 +3,36 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <transition appear-active-class="animated slideInLeft" appear>
-          <aside>
-            <img src="/static/img/model/superprode.png">
-            <span>
-                手拉抓握处
-                呈肌理感
-                抓握舒适
-              </span>
-            <span>
-                探针底部模块分离
-                便于清洗
-              </span>
-          </aside>
-        </transition>
+        <aside class="wow slideInLeft">
+          <img src="/static/img/model/superprode.png">
+          <span>
+              手拉抓握处
+              呈肌理感
+              抓握舒适
+            </span>
+          <span>
+              探针底部模块分离
+              便于清洗
+            </span>
+        </aside>
       </div>
       <div class="col-md-6">
-        <transition appear-active-class="animated slideInRight" appear>
-          <article>
-            <ul>
-              <li>
-                <h3><i class="icon iconfont">&#xe619;</i>即时</h3>
-                <p>随时随地，60s快速检测，满足消费者食品知情权</p>
-              </li>
-              <li>
-                <h3><i class="icon iconfont">&#xe74b;</i>智能</h3>
-                <p>微纳传感器，具有可靠性高、易于集成和实现智能化特点</p>
-              </li>
-              <li>
-                <h3><i class="icon iconfont">&#xe6e8;</i>便携</h3>
-                <p>外观小巧、易于携带，你身边最精巧的智能检测硬件</p>
-              </li>
-            </ul>
-          </article>
-        </transition>
+        <article class="wow slideInRight">
+          <ul>
+            <li>
+              <h3><i class="icon iconfont">&#xe619;</i>即时</h3>
+              <p>随时随地，60s快速检测，满足消费者食品知情权</p>
+            </li>
+            <li>
+              <h3><i class="icon iconfont">&#xe74b;</i>智能</h3>
+              <p>微纳传感器，具有可靠性高、易于集成和实现智能化特点</p>
+            </li>
+            <li>
+              <h3><i class="icon iconfont">&#xe6e8;</i>便携</h3>
+              <p>外观小巧、易于携带，你身边最精巧的智能检测硬件</p>
+            </li>
+          </ul>
+        </article>
       </div>
     </div>
   </div>

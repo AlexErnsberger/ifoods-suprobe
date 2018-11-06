@@ -7,6 +7,8 @@
 @common-bg-height:31.25vw;//1920x600
 @common-fullscreen-height:52vw;//1920*1000;
 @common-subpage-head:26vw;//1920x500
+
+@header-bg-color:#f8f8f8;
 /**
  *统一标题大小
  */
@@ -46,6 +48,9 @@
 //mixin
 .mixin-content{
   padding: 80px 0;
+  @media only screen and (max-width:768px){
+    padding:20px 0;
+  }
 }
 /**
  *页脚
