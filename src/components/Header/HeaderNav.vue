@@ -1,6 +1,6 @@
 <template>
 <nav id="header-nav">
-  <div class="header-nav-flexible" @click="show"></div>
+  <div class="header-nav-flexible" @hover="show"></div>
   <ul :class="{'show':flexibleShow}">
     <li @click="hidden">
       <router-link to="/" tag="a"  exact>

@@ -2,15 +2,15 @@
 <div id="news">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-md-8">
+      <div class="col-xs-12 col-sm-12 col-md-8">
         <short-view-model :news="laterlyNews"  class="wow slideInUp" ></short-view-model>
       </div>
-      <div class="col-xs-12 col-md-4">
-        <logo-model></logo-model>
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <logo-model class="wow slideInUp"></logo-model>
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-md-4" v-for="(news,index) in newsList" :key="index">
+      <div class="col-xs-12 col-sm-12 col-md-4" v-for="(news,index) in newsList" :key="index">
         <short-view-model :news="news" style="height:400px;"  class="wow slideInUp"></short-view-model>
       </div>
     </div>
@@ -77,7 +77,6 @@ export default {
 <style lang="less" scoped>
 #news {
   background: @home-bg-color;
-  padding: 70px 0;
   .row>div {
     padding-top: 50px;
   }

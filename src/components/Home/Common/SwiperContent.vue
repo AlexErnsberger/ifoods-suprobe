@@ -18,12 +18,19 @@ export default {
 </script>
 
 <style lang="less" scoped>
-li {
-  list-style-type: none;
-  letter-spacing: .3em;
-
-  p {
-    font-size: 1.5em;
+ul{
+  padding: 0;
+  li {
+    list-style-type: none;
+    letter-spacing: .3em;
+    h1{
+      line-height: 2;
+    }
+    p {
+      font-size: 1.5em;
+      white-space: nowrap;
+    }
   }
 }
+
 </style>

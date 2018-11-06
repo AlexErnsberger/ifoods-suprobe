@@ -1,5 +1,5 @@
 <template>
-  <ul class="wow fadeInRight">
+  <ul>
     <li>
       <a href="#">
         <i class="icon iconfont">&#xe9be;</i>

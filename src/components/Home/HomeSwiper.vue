@@ -24,7 +24,7 @@
     <swiper-slide class="slide-2">
       <div class="container">
         <div class="row">
-          <div class="col-md-8 text-center">
+          <div class="col-xs-12 col-sm-12 col-md-8 text-center">
             <section>
               <swiper-content :data="slide2"></swiper-content>
             </section>
@@ -35,7 +35,7 @@
     <swiper-slide class="slide-3">
       <div class="container">
         <div class="row">
-          <div class="col-md-12 text-center">
+          <div class="col-xs-12 col-sm-12 col-md-12 text-center">
             <section>
               <swiper-content :data="slide3"></swiper-content>
             </section>

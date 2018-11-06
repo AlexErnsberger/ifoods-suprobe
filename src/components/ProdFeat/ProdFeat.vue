@@ -2,7 +2,7 @@
 <div id="prodFeat">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-xs-12 col-sm-12 col-md-6">
         <aside class="wow slideInLeft">
           <img src="/static/img/model/superprode.png">
           <span>
@@ -16,7 +16,7 @@
             </span>
         </aside>
       </div>
-      <div class="col-md-6">
+      <div class="col-xs-12 col-sm-12 col-md-6">
         <article class="wow slideInRight">
           <ul>
             <li>
@@ -47,7 +47,7 @@ export default {
 
 <style lang="less" scoped>
 @span-fs: 1.2em;
-@img-width: 50%;
+@img-width: 80%;
 
 .mixin-span {
   content: '';
@@ -70,7 +70,7 @@ export default {
     color: white;
 
     img {
-      width: 50%;
+      max-width: @img-width;
     }
 
     span {
@@ -83,8 +83,11 @@ export default {
 
     span:nth-of-type(1) {
       text-align: right;
-      left: @img-width/4;
-      top: @img-width/5;
+      left: @img-width/7;
+      top: @img-width/10;
+      @media only screen and (max-width:768px) {
+         left: @img-width/1000;
+      }
 
       &::after {
         margin-left: @span-fs/1.5;
@@ -95,7 +98,10 @@ export default {
     span:nth-of-type(2) {
       text-align: left;
       bottom: 0;
-      right: @img-width/3;
+      right: @img-width/5;
+      @media only screen and (max-width:768px) {
+         right: @img-width/1000;
+      }
       direction: rtl;
 
       &::after {
@@ -107,7 +113,9 @@ export default {
 
   article {
     color: white;
-
+    ul{
+      padding: 0;
+    }
     li {
       list-style-type: none;
       text-align: left;

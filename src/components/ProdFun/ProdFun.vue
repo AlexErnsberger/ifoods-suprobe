@@ -2,8 +2,8 @@
 <div id="prodFunc">
   <div class="container">
     <div class="row">
-      <div class="col-md-5 col-md-offset-7">
-        <article class="wow fadeInRight">
+      <div class="cos-xs-12 cos-sm-12 col-md-5 col-md-offset-7">
+        <article class="wow fadeInUp">
           <h2>产品功能</h2>
           <p>超级探针是基于可信的食品数据模型，对待检测的食品进行数据采集，并可以上传食品检测，位置等脱敏数据的分布式设备，也是Ifoods Chain智能硬件实验室研制的针对肉类食品检测的成熟应用形式。</p>
         </article>
@@ -27,14 +27,13 @@ export default {
 
   article {
     color: white;
-    width: 55%;
     margin: auto;
 
     h2 {
       .mixin-h(@fs: 2.4em;
       @fw: 100;
       @lh: 2);
-      text-align: right;
+      text-align: center;
     }
 
     p {
