@@ -1,6 +1,6 @@
 <template>
 <nav id="header-nav">
-  <div class="header-nav-flexible" @hover="show"></div>
+  <div class="header-nav-flexible" @click.stop="show"></div>
   <ul :class="{'show':flexibleShow}">
     <li @click="hidden">
       <router-link to="/" tag="a"  exact>
@@ -51,10 +51,21 @@ export default {
   methods: {
     show () {
       this.flexibleShow = true
+      setTimeout(() => {
+         document.addEventListener('click', this.checkClick)
+      }, 0)
     },
     hidden () {
       this.flexibleShow = false
+    },
+    checkClick (e) {
+      if (!this.$el.contains(e.target)) {
+        this.flexibleShow = false
+      }
     }
+  },
+  beforeDestroy () {
+    document.removeEventListener('click', this.checkClick)
   }
 }
 </script>
@@ -132,8 +143,7 @@ export default {
       background: @flexible-color;
       background-clip: content-box;
       border: @flexible-width/5 solid @flexible-color;
-      border-right-width: 0px;border-left-width: 0px;
-      box-shadow: 0px 0px 0px @flexible-width/100 @flexible-color;
+      border-right-width: @flexible-width/70;border-left-width:@flexible-width/70;
     }
   }
   .show{
