@@ -29,10 +29,5 @@ export default {
 
 <style lang="less" scoped>
 #city-pnr {
-  padding-top: 70px;
-
-  h2 {
-    font-size: 1.8em;
-  }
 }
 </style>
