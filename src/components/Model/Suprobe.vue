@@ -3,14 +3,14 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-6">
-        <article class="wow fadeInUp">
+        <article class="wow fadeInDown">
           <h1>超级探针</h1>
           <p>由Ifood chain智能硬件实验室研发
             针对肉类质量检测的智能设备</p>
         </article>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-6">
-        <aside class="wow fadeInUp">
+        <aside class="wow fadeInDown">
           <img src="/static/img/model/superprode.png">
         </aside>
       </div>

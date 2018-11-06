@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-6">
-        <aside class="wow slideInLeft">
+        <aside class="wow fadeInDown">
           <img src="/static/img/model/superprode.png">
           <span>
               手拉抓握处
@@ -17,7 +17,7 @@
         </aside>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-6">
-        <article class="wow slideInRight">
+        <article class="wow fadeInDown">
           <ul>
             <li>
               <h3><i class="icon iconfont">&#xe619;</i>即时</h3>

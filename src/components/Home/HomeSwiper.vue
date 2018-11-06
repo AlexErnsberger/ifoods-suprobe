@@ -4,18 +4,18 @@
     <swiper-slide class="slide-1">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-xs-12 col-sm-12 col-md-6">
             <img class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s" src="/static/img/home/swiper/banner1-suprobe-img.png">
           </div>
-          <div class="col-md-6">
+          <div class="col-xs-12 col-sm-12 col-md-6">
             <section>
               <!-- <a href="#" class="suprobe-font">
                   <a href="#">立即订购</a>
                 </a> -->
               <h1 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">超级探针</h1>
-              <h2 class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">Suprobe Home</h2>
-              <h3 class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">创世版首发 品鉴邀请中</h3>
-              <a class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s" href="https://weidian.com/item.html?itemID=2621089563&p=iphone&wfr=wxBuyerShare&share_relation=3288c65866e6f5c6_192567885_1">立即订购</a>
+              <h2 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">Suprobe Home</h2>
+              <h3 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">创世版首发 品鉴邀请中</h3>
+              <a class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s" href="https://weidian.com/item.html?itemID=2621089563&p=iphone&wfr=wxBuyerShare&share_relation=3288c65866e6f5c6_192567885_1">立即订购</a>
             </section>
           </div>
         </div>
@@ -43,7 +43,7 @@
         </div>
       </div>
     </swiper-slide>
-    <div class="swiper-pagination" slot="pagination"></div>
+    <!-- <div class="swiper-pagination" slot="pagination"></div> -->
     <!-- <div class="swiper-button-prev" slot="button-prev"></div>
       <div class="swiper-button-next" slot="button-next"></div> -->
   </swiper>
@@ -126,28 +126,27 @@ export default {
       h2,
       h3 {
         color: @home-fs-color;
+        white-space: nowrap;
+        width: 280px;
+        text-align: justify;
+        text-align-last: justify;
+        margin: auto;
       }
-
-      h1 {
-        .mixin-h(@fw: 100;
-        );
-        text-indent: @home-head / 3;
-        letter-spacing: @home-head / 3;
+      h1{
+        .mixin-h(@fw: 100);
       }
-
-      h2 {
+      h2{
         .mixin-h(@home-head + @home-head / 30, 400);
-        margin-bottom: @home-head / 4;
+         margin-bottom: @home-head / 10;
       }
-
-      h3 {
+      h3{
         .mixin-h(@home-head / 1.5, 400);
         color: #999;
-        margin-bottom: @home-head / 4;
+        margin-bottom: @home-head / 5;
       }
 
       a {
-        display: block;
+        display: inline-block;
         width: 200px;
         margin: auto;
         padding: .6em 0;
