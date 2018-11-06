@@ -22,7 +22,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-@h-fs: 2vw;
+@h-fs: 2em;
 
 article {
   background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, .3));

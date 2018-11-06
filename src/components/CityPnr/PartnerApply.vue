@@ -3,21 +3,21 @@
   <header>
     <div class="container">
       <div class="row">
-        <div class="col-sm-12 col-md-12">
+        <div class="col-xs-12 col-sm-12 col-md-12">
           <title-plugin :title="headTit" hasbg class="wow fadeInDown"></title-plugin>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-12 col-md-6">
+        <div class="col-xs-6 col-sm-6 col-md-6">
           <section class="left">
-            <p class="wow fadeInLeft">提交区域营销计划，团队情况说明等，证实团队实力</p>
-            <p class="wow fadeInLeft">入选合伙人将获得超级探针提供的相关产品资料，并提供完整话术培训确认</p>
+            <p class="wow fadeInDown">提交区域营销计划，团队情况说明等，证实团队实力</p>
+            <p class="wow fadeInDown">入选合伙人将获得超级探针提供的相关产品资料，并提供完整话术培训确认</p>
           </section>
         </div>
-        <div class="col-sm-12 col-md-6">
+        <div class="col-xs-6 col-sm-6 col-md-6">
           <section class="right">
-            <p class="wow fadeInRight">根据合伙人招募要求，评审选出符合合伙人条件的候选人</p>
-            <p class="wow fadeInRight">超级探针与合伙人备选人进行深入合作意向洽谈，并确认合作计划</p>
+            <p class="wow fadeInDown">根据合伙人招募要求，评审选出符合合伙人条件的候选人</p>
+             <p class="wow fadeInDown">超级探针与合伙人备选人进行深入合作意向洽谈，并确认合作计划</p>
           </section>
         </div>
       </div>
@@ -26,13 +26,13 @@
   <section>
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-xs-12 col-sm-12 col-md-12">
           <title-plugin :title="progTit" class="wow fadeInDown"></title-plugin>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6">
-          <section class="wow fadeInLeft">
+        <div class="col-xs-6 col-sm-6 col-md-6">
+          <section class="wow fadeInDown">
             <header>
               <h3>城市合伙人预选</h3><h3>9月</h3>
               <h3></h3>
@@ -43,8 +43,8 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6 col-md-offset-6">
-          <section class="right wow fadeInRight">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-xs-offset-6 col-sm-offset-6 col-md-offset-6">
+          <section class="right wow fadeInDown">
             <header>
               <h3>城市合伙人复审</h3><h3>10月</h3>
               <h3></h3>
@@ -55,8 +55,8 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6">
-          <section class="wow fadeInLeft">
+        <div class="col-xs-6 col-sm-6 col-md-6">
+          <section class="wow fadeInDown">
             <header>
               <h3>城市合伙人确认</h3><h3>11月</h3>
               <h3></h3>
@@ -98,10 +98,10 @@ export default {
 }
 
 .progress-icon {
-  display: block;
+  display:block;
   width: 80px;
   background: linear-gradient(90deg, @common-color-light, @common-color);
-  border-radius: 100%;
+  border-radius: 50%;
   color: currentColor;
   line-height: 80px;
   text-align: center;
@@ -116,25 +116,26 @@ export default {
     .mixin-bg(@url: url(/static/img/citypnr/bg-apply.jpg);
     @height: @common-bg-height);
     .mixin-center;
+    overflow: hidden;
 
-    & section.left {
+    section.left {
       text-align: right;
       .progress-section;
-
+      
       p:nth-of-type(1)::before {
         content: '报名';
-        margin-left: calc(100% - 80px);
         .progress-icon;
+        margin-left: calc(100% - 80px);
       }
 
       p:nth-of-type(2)::before {
         content: '培训';
-        margin-left: calc(100% - 80px);
         .progress-icon;
+        margin-left: calc(100% - 80px);
       }
     }
 
-    & section.right {
+    section.right {
       text-align: left;
       .progress-section;
 
@@ -148,9 +149,11 @@ export default {
         .progress-icon;
       }
     }
+    
   }
 
   &>section {
+    @h3-fs:1.5em;
     .mixin-content;
 
     .row:not(:first-child) {
@@ -162,14 +165,15 @@ export default {
     section {
       color: white;
       text-align: right;
-      margin-left: 2.5em;
-      margin-right: 2.5em;
+      margin-left: @h3-fs*1.67;
+      margin-right: @h3-fs*1.67;
 
+      
       h3 {
         display: inline-block;
-        font-size: 1.6em;
+        font-size: @h3-fs;
         background: @common-color;
-        padding: .4em;
+        padding: @h3-fs/3;
         margin-top: 0;
       }
 
@@ -179,24 +183,25 @@ export default {
       }
 
       h3:nth-of-type(3) {
-        width: 1.95em;
-        height: 1em;
+        width: @h3-fs*1.4;
+        height: @h3-fs*0.67;
         position: absolute;
         background: linear-gradient(to right, @common-color 50%, white 0);
-        background-size: .1em 100%;
+        background-size: @h3-fs/15 100%;
         background-clip: content-box;
-        padding: .95em 0 0 0;
+        padding: 0;
+        padding-top: @h3-fs*0.63;
         vertical-align: top;
       }
 
       h3:nth-of-type(3)::after {
         content: '';
         position: absolute;
-        width: .5em;
-        height: .5em;
+        width: @h3-fs/3;
+        height: @h3-fs/3;
         background: @common-color;
         border-radius: 100%;
-        margin-top: -.25em;
+        margin-top: -@h3-fs/6;
       }
 
       p {
