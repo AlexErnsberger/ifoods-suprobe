@@ -2,25 +2,25 @@
   <ul>
     <li>
       <a href="#">
-        <i class="icon iconfont">&#xe9be;</i>
+        <i class="icon iconfont icon-tuitetwitter44"></i>
         <!-- <span>推特</span> -->
       </a>
     </li>
     <li>
       <a href="#">
-        <i class="icon iconfont">&#xe600;</i>
+        <i class="icon iconfont icon-facebookfacebook51"></i>
         <!-- <span>脸书</span> -->
       </a>
     </li>
     <li>
       <a href="#">
-        <i class="icon iconfont">&#xe60c;</i>
+        <i class="icon iconfont icon-weibo"></i>
         <!-- <span>微博</span> -->
       </a>
     </li>
     <li>
       <a href="#">
-        <i class="icon iconfont">&#xe60b;</i>
+        <i class="icon iconfont icon-weixin"></i>
         <!-- <span>微信</span> -->
       </a>
     </li>
@@ -64,9 +64,22 @@ ul{
         padding: 0  2em;
       }
       &:hover{
-        i{
-          background: @home-fs-color;
-          color: white;
+        color: white;
+        i.icon-tuitetwitter44{
+          background: #4baaf4;
+          color: inherit;
+        }
+        i.icon-facebookfacebook51{
+          background: #4862a3;
+          color: inherit;
+        }
+        i.icon-weibo{
+          background: #ec0117;
+          color: inherit;
+        }
+        i.icon-weixin{
+          background: #00b500;
+          color: inherit;
         }
       }
     }
