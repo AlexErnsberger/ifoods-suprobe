@@ -155,7 +155,8 @@ export default {
     .mixin-content;
 
     .row:nth-of-type(2), .row:nth-of-type(3), .row:nth-of-type(4) {
-      background: linear-gradient(to bottom, @common-color) no-repeat;
+      background: linear-gradient(to bottom, @common-color 0%,  @common-color 100%);
+      background-repeat: no-repeat;
       background-size: 1px 100%;
       background-position: 50% 0;
     }
