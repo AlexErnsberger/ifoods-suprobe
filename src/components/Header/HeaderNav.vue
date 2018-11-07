@@ -128,7 +128,6 @@ export default {
   #header-nav{
     ul{
       display: none;
-      
       padding: 0;
       li{
         float: none;

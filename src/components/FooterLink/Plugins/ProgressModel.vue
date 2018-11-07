@@ -49,8 +49,6 @@ article {
           display: inline-block;
           font-size: @progress-fs;
           padding: @progress-fs*0.6 @progress-fs;
-          
-
           &.month {
             white-space: nowrap;
             &::after {
