@@ -122,7 +122,6 @@ export default {
     section.left {
       text-align: right;
       .progress-section;
-      
       p:nth-of-type(1)::before {
         content: '报名';
         .progress-icon;
@@ -150,7 +149,6 @@ export default {
         .progress-icon;
       }
     }
-    
   }
 
   &>section {
@@ -169,7 +167,6 @@ export default {
       margin-left: @h3-fs*1.67;
       margin-right: @h3-fs*1.67;
 
-      
       h3 {
         display: inline-block;
         font-size: @h3-fs;

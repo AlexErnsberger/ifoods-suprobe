@@ -2,12 +2,12 @@
 <div id="download">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-xs-12 col-sm-12 col-md-6">
         <aside class="wow fadeInDown">
           <img src="/static/img/home/app.png">
         </aside>
       </div>
-      <div class="col-md-6">
+      <div class="col-xs-12 col-sm-12 col-md-6">
         <article>
           <h2 class="wow fadeInDown">超级探针APP下载</h2>
           <section class="wow fadeInLeft">
@@ -44,11 +44,10 @@ export default {
   .mixin-center;
 
   .row {
-    .mixin-center;
 
     aside {
       img {
-        width: 50%;
+        max-width: 100%;
       }
     }
 

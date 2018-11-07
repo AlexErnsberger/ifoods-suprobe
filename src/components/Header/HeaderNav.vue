@@ -52,7 +52,7 @@ export default {
     show () {
       this.flexibleShow = true
       setTimeout(() => {
-         document.addEventListener('click', this.checkClick)
+        document.addEventListener('click', this.checkClick)
       }, 0)
     },
     hidden () {
