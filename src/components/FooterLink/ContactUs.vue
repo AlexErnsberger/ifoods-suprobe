@@ -27,9 +27,11 @@ export default {
 
 <style lang="less" scoped>
 #contact-us {
+  @footerlink-contactus-head-url:url(/static/img/home/contactus.jpg);
   header {
-    .mixin-bg(@url: url(/static/img/home/contactus.jpg);
+    .mixin-bg(@url: @footerlink-contactus-head-url;
     @height: @common-subpage-head);
+    .mixin-flexiable-bg(@url:@footerlink-contactus-head-url;@height:@flexible-footerlink-head);
   }
 }
 </style>

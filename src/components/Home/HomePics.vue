@@ -61,17 +61,17 @@ export default {
   }
 
   section:nth-of-type(1) {
-    .mixin-bg(@url: url(/static/img/home/pic/eg1.jpg);
+    .mixin-bg(@url: url(/static/img/home/pic/eg1.jpg);@position:15% ;
     @height: @home-fullscreen-pic);
   }
 
   section:nth-of-type(2) {
-    .mixin-bg(@url: url(/static/img/home/pic/eg2.jpg);
+    .mixin-bg(@url: url(/static/img/home/pic/eg2.jpg);@position:25% ;
     @height: @home-fullscreen-pic);
   }
 
   section:nth-of-type(3) {
-    .mixin-bg(@url: url(/static/img/home/pic/eg3.jpg);
+    .mixin-bg(@url: url(/static/img/home/pic/eg3.jpg);@position:75%;
     @height: @home-fullscreen-pic);
   }
 
@@ -81,7 +81,7 @@ export default {
   }
 
   section:nth-of-type(5) {
-    .mixin-bg(@url: url(/static/img/home/pic/eg5.jpg);
+    .mixin-bg(@url: url(/static/img/home/pic/eg5.jpg);@position:30%;
     @height: @home-fullscreen-pic);
   }
 }

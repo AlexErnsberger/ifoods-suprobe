@@ -21,8 +21,7 @@ export default {
 
 <style lang="less" scoped>
 #prodFunc {
-  .mixin-bg(@url: url(/static/img/prodfunc/background.jpg);
-  @height: @common-fullscreen-height);
+  .mixin-bg(@url: url(/static/img/prodfunc/background.jpg);@position:left;@height: @common-fullscreen-height);
   .mixin-center;
 
   article {

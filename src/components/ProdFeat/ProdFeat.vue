@@ -53,6 +53,9 @@ export default {
   content: '';
   display: inline-block;
   width: @span-fs*5;
+  @media only screen and (max-width:768px) {
+    width:@span-fs*3;
+  }
   height: @span-fs/3;
   position: absolute;
   top: calc(50% + @span-fs/2);
@@ -61,7 +64,7 @@ export default {
 }
 
 #prodFeat {
-  .mixin-bg(@url: url(/static/img/prodfeat/background.jpg);
+  .mixin-bg(@url: url(/static/img/prodfeat/background.jpg);@position:left;
   @height: @common-fullscreen-height);
   .mixin-center;
 
@@ -70,7 +73,7 @@ export default {
     color: white;
 
     img {
-      max-width: @img-width;
+      max-width: 50%;
     }
 
     span {
@@ -121,8 +124,7 @@ export default {
       text-align: left;
 
       h3 {
-        .mixin-h(@fs: 2em;
-        @lh: 2);
+        .mixin-h(@fs: 2em);
         letter-spacing: .1em;
 
         i {
@@ -132,8 +134,7 @@ export default {
       }
 
       p {
-        .mixin-h(@fs: 1.2em;
-        @lh: 2);
+        .mixin-h(@fs: 1.2em);
         letter-spacing: .2em;
       }
     }

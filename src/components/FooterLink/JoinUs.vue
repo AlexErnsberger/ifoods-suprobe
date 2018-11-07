@@ -27,11 +27,10 @@ export default {
 
 <style lang="less" scoped>
 #join-us {
-  background: @home-bg-color;
-
+  @footerlink-joinus-head-url:url(/static/img/home/joinus.jpg);
   header {
-    .mixin-bg(@url: url(/static/img/home/joinus.jpg);
-    @height: @common-subpage-head);
+    .mixin-bg(@url:@footerlink-joinus-head-url;@height: @common-subpage-head);
+    .mixin-flexiable-bg(@url:@footerlink-joinus-head-url;@height:@flexible-footerlink-head);
   }
 }
 </style>

@@ -112,10 +112,11 @@ export default {
 
 /**style*/
 #pnr-apply {
+  @citypnr-apply-url:url(/static/img/citypnr/bg-apply.jpg);
   &>header {
-    .mixin-bg(@url: url(/static/img/citypnr/bg-apply.jpg);
-    @height: @common-bg-height);
+    .mixin-bg(@url:@citypnr-apply-url;@height: @common-bg-height);
     .mixin-center;
+    .mixin-flexiable-bg(@url:@citypnr-apply-url;@height:70vh;@position:30%);
     overflow: hidden;
 
     section.left {

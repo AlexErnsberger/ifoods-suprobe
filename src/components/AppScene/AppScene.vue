@@ -75,7 +75,7 @@ export default {
 <style lang="less" scoped>
 .swiper-slide {
   &.slide-1 {
-    .mixin-bg(@url: url(/static/img/appscene/slide1-bg.jpg);
+    .mixin-bg(@url: url(/static/img/appscene/slide1-bg.jpg);@position:60% 50%;
     @height: @common-fullscreen-height);
     .mixin-center;
   }

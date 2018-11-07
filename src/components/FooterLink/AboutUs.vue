@@ -71,7 +71,9 @@ export default {
 
 <style lang="less" scoped>
 header {
-  .mixin-bg(@url: url(/static/img/home/aboutus.jpg);
+  @footerlink-aboutus-head-url:url(/static/img/home/aboutus.jpg);
+  .mixin-bg(@url: @footerlink-aboutus-head-url;
   @height: @common-subpage-head);
+  .mixin-flexiable-bg(@url:@footerlink-aboutus-head-url;@height:@flexible-footerlink-head);
 }
 </style>
