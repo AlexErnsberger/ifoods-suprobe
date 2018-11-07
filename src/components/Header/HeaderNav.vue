@@ -2,7 +2,7 @@
 <nav id="header-nav">
   <div class="header-nav-flexible" @click.stop="show"></div>
   <ul :class="{'show':flexibleShow}">
-    <li @click="hidden">
+    <li @click="hidden" >
       <router-link to="/" tag="a"  exact>
         <span>首页</span>
       </router-link>
@@ -50,7 +50,7 @@ export default {
   },
   methods: {
     show () {
-      this.flexibleShow = true
+      this.flexibleShow = !this.flexibleShow
       setTimeout(() => {
         document.addEventListener('click', this.checkClick)
       }, 0)
@@ -123,15 +123,20 @@ export default {
 
 @media only screen and (max-width:768px){
   @flexible-width:35px;
-  @flexible-color:rgba(0, 0, 0, .1);
+  @flexible-color:#ccc;
+  @flexible-color-deeper:rgba(0, 0, 0, .2);
   #header-nav{
     ul{
       display: none;
-      background: @header-bg-color;
+      
       padding: 0;
       li{
         float: none;
         text-align: center;
+        border-radius: 10px;
+        background: @header-bg-color;
+        border-bottom: 1px solid #ccc;
+        overflow: hidden;
       }
     }
     div.header-nav-flexible{
