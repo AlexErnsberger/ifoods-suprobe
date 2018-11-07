@@ -67,7 +67,7 @@ div.news-model {
     text-align: left;
 
     h4 {
-      height: 2.4em;
+      height: 3em;
 
       a {
         color: @home-fs-color-deeper;
