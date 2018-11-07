@@ -4,8 +4,14 @@
     <h4>{{pro.year}}</h4>
     <ul>
       <li v-for="(schedule, index) in pro.schedule" :key="index" class="wow fadeInUp">
-        <span>{{schedule.month}}</span>
-        <span>{{schedule.work}}</span>
+        <div class="row">
+          <div class="col-xs-2 col-sm-2 col-md-2">
+            <span class="month">{{schedule.month}}</span>
+          </div>
+          <div class="col-xs-10 col-sm-10 col-md-10">
+            <span class="work">{{schedule.work}}</span>
+          </div>
+        </div>
       </li>
     </ul>
   </section>
@@ -31,31 +37,36 @@ article {
 
   h4 {
     line-height: 2;
+    display: inline-block;
   }
 
   section {
     ul {
+      padding: 0;
       li {
         list-style-type: none;
-
         span {
           display: inline-block;
           font-size: @progress-fs;
           padding: @progress-fs*0.6 @progress-fs;
+          
 
-          &:first-child::after {
-            content: '';
-            display: inline-block;
-            width: @progress-fs/2;
-            height: @progress-fs/2;
-            background: @common-color;
-            border-radius: 100%;
-            position: absolute;
-            margin-left: @progress-fs;
-            margin-top: @progress-fs/2;
+          &.month {
+            white-space: nowrap;
+            &::after {
+              content: '';
+              display: inline-block;
+              width: @progress-fs/2;
+              height: @progress-fs/2;
+              background: @common-color;
+              border-radius: 100%;
+              position: absolute;
+              margin-left: @progress-fs/2;
+              margin-top: @progress-fs/2;
+            }
           }
 
-          &:last-child {
+          &.work {
             color: @home-fs-color-lighter;
             margin-left: @progress-fs*1.5;
             box-shadow: -@progress-fs/5 @progress-fs/5 @progress-fs/2 currentColor;
