@@ -20,7 +20,7 @@ a {
   margin: auto;
   padding: .7em;
   border-radius: .4em;
-  color: currentColor;
+  color: white;
   font-size: 1.2em;
   text-decoration: none;
 
@@ -29,8 +29,13 @@ a {
     text-decoration: none;
   }
 
+  &:active {
+    text-decoration: none;
+  }
+
   span {
     font-size: 1.2em;
+    color: currentColor;
   }
 }
 </style>

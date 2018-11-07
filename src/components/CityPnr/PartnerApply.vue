@@ -154,7 +154,7 @@ export default {
     @h3-fs:1.5em;
     .mixin-content;
 
-    & .row:not(:first-child) {
+    .row:nth-of-type(2), .row:nth-of-type(3), .row:nth-of-type(4) {
       background: linear-gradient(to bottom, @common-color) no-repeat;
       background-size: 1px 100%;
       background-position: 50% 0;
