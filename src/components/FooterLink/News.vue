@@ -38,8 +38,5 @@ export default {
 <style lang="less" scoped>
 #news {
   background: @home-bg-color;
-  .row>div {
-    padding-top: 50px;
-  }
 }
 </style>
