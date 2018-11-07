@@ -115,7 +115,7 @@ export default {
     .mixin-center;
 
     img {
-      width: 60%;
+      max-width: 100%;
     }
 
     section {
