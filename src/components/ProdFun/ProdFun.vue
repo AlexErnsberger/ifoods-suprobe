@@ -30,14 +30,12 @@ export default {
 
     h2 {
       .mixin-h(@fs: 2.4em;
-      @fw: 100;
       @lh: 2);
       text-align: center;
     }
 
     p {
       .mixin-h(@fs: 1.2em;
-      @fw: 100;
       @lh: 2);
       letter-spacing: .1em;
       text-align: justify;
