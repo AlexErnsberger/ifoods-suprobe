@@ -165,6 +165,10 @@ export default {
       text-align: right;
       margin-left: @h3-fs*1.67;
       margin-right: @h3-fs*1.67;
+      @media only screen and (max-width:768px) {
+        margin-left: 0;
+        margin-right: 0;
+      }
 
       h3 {
         display: inline-block;
@@ -189,6 +193,9 @@ export default {
         padding: 0;
         padding-top: @h3-fs*0.63;
         vertical-align: top;
+        @media only screen and (max-width:768px) {
+          width: @h3-fs/3;
+        }
       }
 
       h3:nth-of-type(3)::after {
