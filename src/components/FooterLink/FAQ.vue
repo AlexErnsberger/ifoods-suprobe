@@ -89,11 +89,10 @@ export default {
 
 <style lang="less" scoped>
 #faq {
-  @footerlink-fqa-head-url:url(/static/img/home/salepolicy.jpg);
   header {
-    .mixin-bg(@url: @footerlink-fqa-head-url;
+    .mixin-bg(@url: @footerlink-faq-header-url;
     @height: @common-subpage-head);
-    .mixin-flexiable-bg(@url:@footerlink-fqa-head-url;@height:@flexible-footerlink-head);
+    .mixin-flexiable-bg(@url:@footerlink-faq-header-url;@height:@flexible-footerlink-head);
   }
 }
 </style>

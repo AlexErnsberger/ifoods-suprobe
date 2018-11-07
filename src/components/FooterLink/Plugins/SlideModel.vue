@@ -1,7 +1,7 @@
 <template>
 <article>
   <ul>
-    <li v-for="(list, index) in slide" :key="index">
+    <li v-for="(list, index) in slide" :key="index" class="wow fadeInUp">
       <slide-content :list="list"></slide-content>
     </li>
   </ul>

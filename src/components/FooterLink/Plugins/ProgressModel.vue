@@ -3,7 +3,7 @@
   <section v-for="(pro, index) in progress" :key="index">
     <h4>{{pro.year}}</h4>
     <ul>
-      <li v-for="(schedule, index) in pro.schedule" :key="index">
+      <li v-for="(schedule, index) in pro.schedule" :key="index" class="wow fadeInUp">
         <span>{{schedule.month}}</span>
         <span>{{schedule.work}}</span>
       </li>

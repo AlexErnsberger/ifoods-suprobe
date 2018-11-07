@@ -45,10 +45,9 @@ export default {
 
 <style lang="less" scoped>
 #sale-policy {
-  @footerlink-salepolicy-head-url:url(/static/img/home/salepolicy.jpg);
   header {
-    .mixin-bg(@url: @footerlink-salepolicy-head-url;@height: @common-subpage-head);
-    .mixin-flexiable-bg(@url:@footerlink-salepolicy-head-url;@height:@flexible-footerlink-head);
+    .mixin-bg(@url: @footerlink-salepolicy-header-url;@height: @common-subpage-head);
+    .mixin-flexiable-bg(@url:@footerlink-salepolicy-header-url;@height:@flexible-footerlink-head);
   }
 }
 </style>

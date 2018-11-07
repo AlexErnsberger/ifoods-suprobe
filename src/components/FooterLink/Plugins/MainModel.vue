@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-xs-12 col-md-4">
         <nav>
-          <a href="#" v-for="(tab,index) in tabs" :key="index" @click.prevent="choose(tab)" :class="{'active':currentTab == tab}">{{tab.title}}</a>
+          <a class="wow fadeInUp" href="#" v-for="(tab,index) in tabs" :key="index" @click.prevent="choose(tab)" :class="{'active':currentTab == tab}">{{tab.title}}</a>
         </nav>
       </div>
       <div class="col-xs-12 col-md-8">

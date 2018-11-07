@@ -27,10 +27,9 @@ export default {
 
 <style lang="less" scoped>
 #join-us {
-  @footerlink-joinus-head-url:url(/static/img/home/joinus.jpg);
   header {
-    .mixin-bg(@url:@footerlink-joinus-head-url;@height: @common-subpage-head);
-    .mixin-flexiable-bg(@url:@footerlink-joinus-head-url;@height:@flexible-footerlink-head);
+    .mixin-bg(@url:@footerlink-joinus-header-url;@height: @common-subpage-head);
+    .mixin-flexiable-bg(@url:@footerlink-joinus-header-url;@height:@flexible-footerlink-head);
   }
 }
 </style>

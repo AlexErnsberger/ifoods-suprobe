@@ -8,16 +8,16 @@
         </aside>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-6">
-        <article>
-          <h2 class="wow fadeInDown">超级探针APP下载</h2>
-          <section class="wow fadeInLeft">
+        <article class="wow fadeInDown">
+          <h2 >超级探针APP下载</h2>
+          <section >
             <img src="/static/img/home/download-qrcode.png" >
             <a href="#">
                 <i class="icon iconfont">&#xe68c;</i>
                 <span>IOS(敬请期待)</span>
               </a>
           </section>
-          <section class="wow fadeInRight">
+          <section >
             <img src="/static/img/home/download-andriod.png" >
             <a href="https://www.ifoodschain.com/download/android/suprobe-android-V1.0.4.apk" >
                 <i class="icon iconfont">&#xe68d;</i>
@@ -39,7 +39,7 @@ export default {
 
 <style lang="less" scoped>
 #download {
-  .mixin-bg(@url: url(/static/img/home/download.jpg);
+  .mixin-bg(@url: @footerlink-download-bg-url;
   @height: @common-fullscreen-height);
   .mixin-center;
 
