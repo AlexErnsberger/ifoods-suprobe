@@ -110,7 +110,7 @@ export default {
 <style lang="less" scoped>
 .swiper-slide {
   &.slide-1 {
-    .mixin-bg(@url: url(/static/img/home/swiper/banner1.png);
+    .mixin-bg(@url: @home-swiperpic1-url;
     @height: @home-swiper-bg-height);
     .mixin-center;
 
@@ -165,7 +165,7 @@ export default {
   }
 
   &.slide-2 {
-    .mixin-bg(@url: url(/static/img/home/swiper/banner2.jpg);@position:70% 50%;
+    .mixin-bg(@url: @home-swiperpic2-url;@position:70% 50%;
     @height:@home-swiper-bg-height);
     .mixin-center;
     color: white;
@@ -173,7 +173,7 @@ export default {
   }
 
   &.slide-3 {
-    .mixin-bg(@url: url(/static/img/home/swiper/banner3.jpg);
+    .mixin-bg(@url: @home-swiperpic3-url;
     @height: @home-swiper-bg-height);
     .mixin-center;
     color: #e3a53c;

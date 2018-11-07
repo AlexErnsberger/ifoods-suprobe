@@ -75,19 +75,19 @@ export default {
 <style lang="less" scoped>
 .swiper-slide {
   &.slide-1 {
-    .mixin-bg(@url: url(/static/img/appscene/slide1-bg.jpg);@position:60% 50%;
+    .mixin-bg(@url: @appscene-swiperbg1-url;@position:60% 50%;
     @height: @common-fullscreen-height);
     .mixin-center;
   }
 
   &.slide-2 {
-    .mixin-bg(@url: url(/static/img/appscene/slide2-bg.jpg);
+    .mixin-bg(@url: @appscene-swiperbg2-url;
     @height: @common-fullscreen-height);
     .mixin-center;
   }
 
   &.slide-3 {
-    .mixin-bg(@url: url(/static/img/appscene/slide3-bg.jpg);
+    .mixin-bg(@url: @appscene-swiperbg3-url;
     @height: @common-fullscreen-height);
     .mixin-center;
   }

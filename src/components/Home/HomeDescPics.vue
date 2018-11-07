@@ -61,27 +61,27 @@ export default {
   }
 
   section:nth-of-type(1) {
-    .mixin-bg(@url: url(/static/img/home/pic/eg1.jpg);@position:15% ;
+    .mixin-bg(@url: @home-descpic1-url;@position:15% ;
     @height: @home-fullscreen-pic);
   }
 
   section:nth-of-type(2) {
-    .mixin-bg(@url: url(/static/img/home/pic/eg2.jpg);@position:25% ;
+    .mixin-bg(@url:  @home-descpic2-url;@position:25% ;
     @height: @home-fullscreen-pic);
   }
 
   section:nth-of-type(3) {
-    .mixin-bg(@url: url(/static/img/home/pic/eg3.jpg);@position:75%;
+    .mixin-bg(@url:  @home-descpic3-url;@position:75%;
     @height: @home-fullscreen-pic);
   }
 
   section:nth-of-type(4) {
-    .mixin-bg(@url: url(/static/img/home/pic/eg4.jpg);
+    .mixin-bg(@url:  @home-descpic4-url;
     @height: @home-fullscreen-pic);
   }
 
   section:nth-of-type(5) {
-    .mixin-bg(@url: url(/static/img/home/pic/eg5.jpg);@position:30%;
+    .mixin-bg(@url:  @home-descpic5-url;@position:30%;
     @height: @home-fullscreen-pic);
   }
 }

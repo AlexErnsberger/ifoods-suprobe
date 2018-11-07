@@ -64,7 +64,7 @@ export default {
 }
 
 #prodFeat {
-  .mixin-bg(@url: url(/static/img/prodfeat/background.jpg);@position:left;
+  .mixin-bg(@url:  @prodFeat-bg-url;@position:left;
   @height: @common-fullscreen-height);
   .mixin-center;
 
