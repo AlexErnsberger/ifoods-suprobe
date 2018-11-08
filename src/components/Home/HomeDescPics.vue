@@ -76,7 +76,7 @@ export default {
   }
 
   section:nth-of-type(4) {
-    .mixin-bg(@url:  @home-descpic4-url;
+    .mixin-bg(@url:  @home-descpic4-url;@position:left;
     @height: @home-fullscreen-pic);
   }
 
