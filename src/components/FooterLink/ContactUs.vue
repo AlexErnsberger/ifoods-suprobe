@@ -29,7 +29,7 @@ export default {
 #contact-us {
   header {
     .mixin-bg(@url: @footerlink-contactus-header-url;
-    @height: @common-subpage-head);
+    @height: @footerlink-titlepic-bg-height);
     .mixin-flexiable-bg(@url:@footerlink-contactus-header-url;@height:@flexible-footerlink-head);
   }
 }

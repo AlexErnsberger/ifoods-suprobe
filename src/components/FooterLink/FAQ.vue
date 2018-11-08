@@ -91,7 +91,7 @@ export default {
 #faq {
   header {
     .mixin-bg(@url: @footerlink-faq-header-url;
-    @height: @common-subpage-head);
+    @height: @footerlink-titlepic-bg-height);
     .mixin-flexiable-bg(@url:@footerlink-faq-header-url;@height:@flexible-footerlink-head);
   }
 }

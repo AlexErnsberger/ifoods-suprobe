@@ -28,7 +28,7 @@ export default {
 <style lang="less" scoped>
 #suprobe {
   .mixin-bg(@url:  @model-bg-url;@position:left;
-  @height: @common-fullscreen-height);
+  @height: @common-fullscreenpic-height);
   .mixin-center;
 
   .row {

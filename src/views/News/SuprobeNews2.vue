@@ -30,6 +30,6 @@ export default {
 
 <style lang="less" scoped>
 #news2 {
-  background: @home-bg-color;
+  background: @common-bg-color;
 }
 </style>

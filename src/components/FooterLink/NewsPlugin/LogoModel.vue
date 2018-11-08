@@ -1,25 +1,25 @@
 <template>
   <ul>
     <li>
-      <a href="#">
+      <a href="#" @click.prevent="">
         <i class="icon iconfont icon-tuitetwitter44"></i>
         <!-- <span>推特</span> -->
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="#"  @click.prevent="">
         <i class="icon iconfont icon-facebookfacebook51"></i>
         <!-- <span>脸书</span> -->
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="#"  @click.prevent="">
         <i class="icon iconfont icon-weibo"></i>
         <!-- <span>微博</span> -->
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="#"  @click.prevent="">
         <i class="icon iconfont icon-weixin"></i>
         <!-- <span>微信</span> -->
       </a>
@@ -49,11 +49,11 @@ ul{
       display: inline-block;
       font-size: 2em;
       text-decoration: none;
-      color: @home-bg-color;
+      color: @common-bg-color;
       transition: color .5s;
       i{
         display: inline-block;
-        font-size: inherit;color: @home-fs-color;
+        font-size: inherit;color: @common-fs-color;
         width: 2em;
         line-height: 2;text-align: center;
         border-radius: 100%;
@@ -64,7 +64,7 @@ ul{
         padding: 0  2em;
       }
       &:hover{
-        color: white;
+        color: @common-bg-color;
         i.icon-tuitetwitter44{
           background: #4baaf4;
           color: inherit;

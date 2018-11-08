@@ -30,10 +30,7 @@ export default {
 @progress-fs: 1em;
 
 article {
-  text-align: left;
-  padding: 1em 3em 2em 3em;
-  letter-spacing: .2em;
-  background: @active-bg-color;
+  .footerlink-plugins-article;
 
   h4 {
     line-height: 2;
@@ -65,7 +62,7 @@ article {
           }
 
           &.work {
-            color: @home-fs-color-lighter;
+            color: @common-fs-color-lighter;
             margin-left: @progress-fs*1.5;
             box-shadow: -@progress-fs/5 @progress-fs/5 @progress-fs/2 currentColor;
             border-radius: @progress-fs/5;

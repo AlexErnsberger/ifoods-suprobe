@@ -16,15 +16,12 @@ export default {
 
 <style lang="less" scoped>
 article {
-  text-align: left;
-  padding: 1em 3em 2em 3em;
-  letter-spacing: .2em;
-  background: @active-bg-color;
+  .footerlink-plugins-article;
 
   h4,
   p {
     line-height: 2;
-    color: @home-fs-color;
+    color: @common-fs-color;
   }
 
   p {

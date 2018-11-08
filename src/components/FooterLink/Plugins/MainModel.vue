@@ -45,13 +45,13 @@ export default {
 
 <style lang="less" scoped>
 section {
-  background: @home-bg-color;
+  background: @common-bg-color;
   padding-bottom: 80px;
 
   .active {
-    background: @active-bg-color;
+    background: white;
     box-shadow: -.2em 0 @common-color;
-    color: @home-fs-color-deeper;
+    color: @common-fs-color-deeper;
   }
 
   .container {
@@ -68,7 +68,7 @@ section {
         line-height: 3;
         font-size: 1.4em;
         letter-spacing: .2em;
-        color: @home-fs-color;
+        color: @common-fs-color;
 
         &:hover {
           text-decoration: none;
@@ -76,7 +76,7 @@ section {
       }
 
       a+a {
-        border-top: .01em solid @border-bottom-color;
+        border-top: .01em solid @common-fs-color-lighter;
       }
     }
   }

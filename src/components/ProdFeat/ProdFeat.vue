@@ -65,7 +65,7 @@ export default {
 
 #prodFeat {
   .mixin-bg(@url:  @prodFeat-bg-url;@position:left;
-  @height: @common-fullscreen-height);
+  @height: @common-fullscreenpic-height);
   .mixin-center;
 
   aside {

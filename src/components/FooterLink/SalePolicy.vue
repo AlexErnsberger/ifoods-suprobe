@@ -46,7 +46,7 @@ export default {
 <style lang="less" scoped>
 #sale-policy {
   header {
-    .mixin-bg(@url: @footerlink-salepolicy-header-url;@height: @common-subpage-head);
+    .mixin-bg(@url: @footerlink-salepolicy-header-url;@height: @footerlink-titlepic-bg-height);
     .mixin-flexiable-bg(@url:@footerlink-salepolicy-header-url;@height:@flexible-footerlink-head);
   }
 }

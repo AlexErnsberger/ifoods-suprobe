@@ -51,10 +51,10 @@ div {
 
   a {
     display: block;
-    border-bottom: .05em solid @border-bottom-color ;
+    border-bottom: .05em solid @common-fs-color-lighter ;
     text-decoration: none;
     font-size: @slide-a-fs;
-    color: @home-fs-color-deeper;
+    color: @common-fs-color-deeper;
     position: relative;
 
     &:hover {
@@ -76,7 +76,7 @@ div {
       display: inline-block;
       width: @slide-a-fs;
       height: @slide-a-fs;
-      background-image: linear-gradient(to right, @home-fs-color-lighter), linear-gradient(to bottom, @home-fs-color-lighter);
+      background-image: linear-gradient(to right, @common-fs-color-lighter), linear-gradient(to bottom, @common-fs-color-lighter);
       background-repeat: no-repeat;
       background-size: @slide-a-fs @slide-a-fs/5, @slide-a-fs/5 @slide-a-fs;
       background-position: 0 @slide-a-fs*0.4, @slide-a-fs*0.4 0;
@@ -87,8 +87,8 @@ div {
   }
 
   p {
-    color: @home-fs-color;
-    background-color: @home-bg-color;
+    color: @common-fs-color;
+    background-color: @common-bg-color;
     white-space: pre-line;
     line-height: 2;
     transition: .5s linear;

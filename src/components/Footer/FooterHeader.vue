@@ -53,7 +53,7 @@ export default {
   a {
     display: block;
     font-size: 1.2em;
-    color: @home-fs-color;
+    color: @common-fs-color;
     text-decoration: none;
 
     i {

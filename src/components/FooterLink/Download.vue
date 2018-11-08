@@ -40,7 +40,7 @@ export default {
 <style lang="less" scoped>
 #download {
   .mixin-bg(@url: @footerlink-download-bg-url;
-  @height: @common-fullscreen-height);
+  @height: @common-fullscreenpic-height);
   .mixin-center;
 
   .row {
@@ -52,7 +52,7 @@ export default {
     }
 
     article {
-      color: @home-fs-color;
+      color: @common-fs-color;
 
       h2 {
         color: currentColor;

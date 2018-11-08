@@ -23,7 +23,7 @@ export default {
 article {
   width: 80%;
   margin: auto;
-  color: @home-fs-color;
+  color: @common-fs-color;
 
   h3 {
     .mixin-h(@fs: 1.6em;

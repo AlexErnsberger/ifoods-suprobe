@@ -32,7 +32,7 @@ export default {
 <style lang="less" scoped>
 div.news-model {
   margin: 10px 0;
-  border-color: @home-fs-color-lighter;
+  border-color: @common-fs-color-lighter;
   border-radius: 4px;
   overflow: hidden;
   box-shadow: 0 8px 24px rgba(0, 0, 0, .12);
@@ -70,13 +70,13 @@ div.news-model {
       height: 3em;
 
       a {
-        color: @home-fs-color-deeper;
+        color: @common-fs-color-deeper;
         font-weight: 600;
       }
     }
 
     h6 {
-      color: @home-fs-color-lighter;
+      color: @common-fs-color-lighter;
     }
 
     p {

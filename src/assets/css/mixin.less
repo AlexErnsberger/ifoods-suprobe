@@ -1,16 +1,82 @@
-/**
- *全局变量
- */
+/*
+****************************************************************************************************************************************
+******************************************************************变量******************************************************************
+***************************************************************************************************************************************
+*/
+
+/*
+** 公共变量
+*/
+
+// 公共主题色
 @common-color:#309bee;
 @common-color-light:#4fafeb;
 
-@common-bg-height:480px;//1920x600;31.25vw
-@common-fullscreen-height:100vh;//1920*1000;52vw 800px
-@common-subpage-head:400px;//1920x500;26vw
-@flexible-footerlink-head:20vh;
+// 公共背景色
+@common-bg-color:#fafafa;
 
+// 公共字体色
+@common-fs-color:#666464;
+@common-fs-color-lighter:#b4b3b3;
+@common-fs-color-deeper:#3b3b3b;
+
+// 全屏背景图片公共高度
+@common-fullscreenpic-height:100vh;//1920*1000;52vw 800px
+
+/*
+** header
+*/
+
+// header背景颜色
 @header-bg-color:#f8f8f8;
 
+/*
+** footer
+*/
+
+// footer字体颜色
+@footer-color:#c5c3c3;
+
+/*
+** home
+*/
+
+// home标题字体大小
+@home-head:3em;
+@home-subHeadCont:1.4em;
+
+// home背景图片高度
+@home-descpics-bg-height:692px;//45vw 692px 
+@home-swiper-bg-height:480px;
+
+/*
+** citypnr
+*/
+// 城市合伙人插图高度
+@citypnr-nestpic-bg-height:480px;//1920x600;31.25vw
+
+@citypnr-head-fsize:1.8em;
+@citypnr-lh:2.4;
+
+/*
+** footerlink
+*/
+// 页脚链接页面标题图片高度
+@footerlink-titlepic-bg-height:400px;//1920x500;26vw
+// 移动端适配高度
+@flexible-footerlink-head:20vh;
+
+/*
+****************************************************************************************************************************************
+******************************************************************mixin**************************************************************
+***************************************************************************************************************************************
+*/
+
+/*
+**common
+*/
+
+// 背景图片公共样式
 .mixin-bg(@url;@height:0;@repeat:no-repeat;@position:center;@size:100% 100%){
   background-image: @url;
   background-repeat: @repeat;
@@ -21,65 +87,57 @@
   }
   height: @height;
 }
+
+// 背景图片公共适配样式
 .mixin-flexiable-bg(@url,@height,@repeat:no-repeat,@position:center,@size:auto 100%){
   @media only screen and (max-width:768px){
     .mixin-bg(@url, @height, @repeat, @position, @size);
   }
 }
+
+// 图片内容公共垂直居中样式
 .mixin-center{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/**
- *统一标题大小
- */
-@home-head:3em;
-@home-subHeadCont:1.4em;
-@home-fullscreen-pic:692px;//45vw 692px 
-@home-swiper-bg-height:480px;
+
+// 公共字体设置样式
 .mixin-h(@fs:@home-head;@fw:400;@lh:1.5){
   font-size: @fs;
   font-weight: @fw;
   line-height: @lh;
 }
+
 /**
- *主页
+ * footerlink
  */
-@home-fs-color:#666464;
-@home-fs-color-lighter:#b4b3b3;
-@home-fs-color-deeper:#3b3b3b;
-@home-bg-color:#fafafa;
-/**
- *城市合伙人
- */
-@citypnr-head-fsize:1.8em;
-@citypnr-lh:2.4;
-//mixin
+
+ // 城市合伙人内容样式移动端适配
 .mixin-content{
   padding: 80px 0;
   @media only screen and (max-width:768px){
     padding:20px 0;
   }
 }
-/**
- *页脚
- */
-@footer-color:#c5c3c3;
-
-/**
-* MainModel
-*/
-@active-bg-color:white;
-@border-bottom-color:#d1d1d1;
 
 /*
-**
-****************************************************************************************************************************
-**背景图片
-**
-**
-**/
+** footerlink
+*/
+
+// 页脚链接页面插件内容区域公共样式
+.footerlink-plugins-article{
+  text-align: left;
+  padding: 1em 3em 2em 3em;
+  letter-spacing: .2em;
+  background: white;
+}
+
+/*
+****************************************************************************************************************************************
+******************************************************************背景图片**************************************************************
+***************************************************************************************************************************************
+*/
 
 /*
 **home

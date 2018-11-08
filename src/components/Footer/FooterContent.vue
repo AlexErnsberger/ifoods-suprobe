@@ -54,7 +54,7 @@ export default {
     text-align: center;
 
     h5 {
-      color: @home-fs-color;
+      color: @common-fs-color;
     }
 
     a {
@@ -79,7 +79,7 @@ export default {
     span {
       display: block;
       font-size: 1em;
-      color: @home-fs-color;
+      color: @common-fs-color;
     }
   }
 }

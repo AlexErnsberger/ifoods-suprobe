@@ -76,19 +76,19 @@ export default {
 .swiper-slide {
   &.slide-1 {
     .mixin-bg(@url: @appscene-swiperbg1-url;@position:60% 50%;
-    @height: @common-fullscreen-height);
+    @height: @common-fullscreenpic-height);
     .mixin-center;
   }
 
   &.slide-2 {
     .mixin-bg(@url: @appscene-swiperbg2-url;
-    @height: @common-fullscreen-height);
+    @height: @common-fullscreenpic-height);
     .mixin-center;
   }
 
   &.slide-3 {
     .mixin-bg(@url: @appscene-swiperbg3-url;
-    @height: @common-fullscreen-height);
+    @height: @common-fullscreenpic-height);
     .mixin-center;
   }
 }

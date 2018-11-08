@@ -10,7 +10,7 @@ export default {
 
 <style lang="less" scoped>
 header {
-  .mixin-bg(@url:@citypnr-header-url;@height:@common-bg-height);
+  .mixin-bg(@url:@citypnr-header-url;@height:@citypnr-nestpic-bg-height);
   .mixin-flexiable-bg(@url:@citypnr-header-url;@height:35vh);
 }
 </style>

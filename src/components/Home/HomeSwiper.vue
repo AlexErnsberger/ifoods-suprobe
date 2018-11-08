@@ -125,7 +125,7 @@ export default {
       h1,
       h2,
       h3 {
-        color: @home-fs-color;
+        color: @common-fs-color;
         white-space: nowrap;
         width: 280px;
         text-align: justify;

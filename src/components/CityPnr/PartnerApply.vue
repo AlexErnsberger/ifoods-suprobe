@@ -113,7 +113,7 @@ export default {
 /**style*/
 #pnr-apply {
   &>header {
-    .mixin-bg(@url: @citypnr-apply-header-url;@height: @common-bg-height);
+    .mixin-bg(@url: @citypnr-apply-header-url;@height: @citypnr-nestpic-bg-height);
     .mixin-center;
     .mixin-flexiable-bg(@url: @citypnr-apply-header-url; @height: 70vh;@position: 30%);
     overflow: hidden;

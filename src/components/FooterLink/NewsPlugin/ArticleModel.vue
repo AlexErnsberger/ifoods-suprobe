@@ -24,18 +24,18 @@ article {
   }
 
   h6 {
-    color: @home-fs-color-lighter;
+    color: @common-fs-color-lighter;
     text-align: right;
   }
 
   h3 {
-    color: @home-fs-color-deeper;
+    color: @common-fs-color-deeper;
     line-height: 3;
   }
 
   h4,
   p {
-    color: @home-fs-color;
+    color: @common-fs-color;
     line-height: 2;
   }
 

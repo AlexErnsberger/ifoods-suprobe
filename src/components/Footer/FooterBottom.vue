@@ -27,13 +27,13 @@ export default {
 
 <style lang="less" scoped>
 #footer-bottom {
-  background: @home-bg-color;
+  background: @common-bg-color;
   padding: 20px;
   h4,
   a,
   span {
     display: inline-block;
-    color: @home-fs-color;
+    color: @common-fs-color;
     font-size: .8em;
   }
 
@@ -42,7 +42,7 @@ export default {
   }
 
   a {
-    color: @home-fs-color-lighter;
+    color: @common-fs-color-lighter;
     text-decoration: none;
 
     &:hover {

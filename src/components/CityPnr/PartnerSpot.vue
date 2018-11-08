@@ -104,7 +104,7 @@ export default {
   &>header {
     .mixin-center;
     .mixin-bg(@url: @citypnr-spot-header-url;
-    @height: @common-bg-height);
+    @height: @citypnr-nestpic-bg-height);
     color: white;
     line-height: @citypnr-lh;
 

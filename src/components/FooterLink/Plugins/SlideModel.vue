@@ -22,10 +22,7 @@ export default {
 
 <style lang="less" scoped>
 article {
-  text-align: left;
-  padding: 1em 3em 2em 3em;
-  letter-spacing: .2em;
-  background: @active-bg-color;
+  .footerlink-plugins-article;
 
   ul {
     margin-bottom: 0;

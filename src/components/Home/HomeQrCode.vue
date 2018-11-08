@@ -21,7 +21,7 @@ export default {
 
 <style lang="less" scoped>
 #qrCode {
-  background: @home-bg-color;
+  background: @common-bg-color;
   padding: 20px 0;
 
   img{

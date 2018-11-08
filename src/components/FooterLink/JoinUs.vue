@@ -28,7 +28,7 @@ export default {
 <style lang="less" scoped>
 #join-us {
   header {
-    .mixin-bg(@url:@footerlink-joinus-header-url;@height: @common-subpage-head);
+    .mixin-bg(@url:@footerlink-joinus-header-url;@height: @footerlink-titlepic-bg-height);
     .mixin-flexiable-bg(@url:@footerlink-joinus-header-url;@height:@flexible-footerlink-head);
   }
 }
