@@ -8,63 +8,63 @@
 ** 公共变量
 */
 
-// 公共主题色
-@common-color:#309bee;
-@common-color-light:#4fafeb;
+  // 公共主题色
+  @common-color:#309bee;
+  @common-color-light:#4fafeb;
 
-// 公共背景色
-@common-bg-color:#fafafa;
+  // 公共背景色
+  @common-bg-color:#fafafa;
 
-// 公共字体色
-@common-fs-color:#666464;
-@common-fs-color-lighter:#b4b3b3;
-@common-fs-color-deeper:#3b3b3b;
+  // 公共字体色
+  @common-fs-color:#666464;
+  @common-fs-color-lighter:#b4b3b3;
+  @common-fs-color-deeper:#3b3b3b;
 
-// 全屏背景图片公共高度
-@common-fullscreenpic-height:100vh;//1920*1000;52vw 800px
+  // 全屏背景图片公共高度
+  @common-fullscreenpic-height:100vh;//1920*1000;52vw 800px
 
 /*
 ** header
 */
 
-// header背景颜色
-@header-bg-color:#f8f8f8;
+  // header背景颜色
+  @header-bg-color:#f8f8f8;
 
 /*
 ** footer
 */
 
-// footer字体颜色
-@footer-color:#c5c3c3;
+  // footer字体颜色
+  @footer-color:#c5c3c3;
 
 /*
 ** home
 */
 
-// home标题字体大小
-@home-head:3em;
-@home-subHeadCont:1.4em;
+  // home标题字体大小
+  @home-head:3em;
+  @home-subHeadCont:1.4em;
 
-// home背景图片高度
-@home-descpics-bg-height:692px;//45vw 692px 
-@home-swiper-bg-height:480px;
+  // home背景图片高度
+  @home-descpics-bg-height:692px;//45vw 692px 
+  @home-swiper-bg-height:480px;
 
 /*
 ** citypnr
 */
-// 城市合伙人插图高度
-@citypnr-nestpic-bg-height:480px;//1920x600;31.25vw
+  // 城市合伙人插图高度
+  @citypnr-nestpic-bg-height:480px;//1920x600;31.25vw
 
-@citypnr-head-fsize:1.8em;
-@citypnr-lh:2.4;
+  @citypnr-head-fsize:1.8em;
+  @citypnr-lh:2.4;
 
 /*
 ** footerlink
 */
-// 页脚链接页面标题图片高度
-@footerlink-titlepic-bg-height:400px;//1920x500;26vw
-// 移动端适配高度
-@flexible-footerlink-head:20vh;
+  // 页脚链接页面标题图片高度
+  @footerlink-titlepic-bg-height:400px;//1920x500;26vw
+  // 移动端适配高度
+  @flexible-footerlink-head:20vh;
 
 /*
 ****************************************************************************************************************************************
@@ -76,62 +76,62 @@
 **common
 */
 
-// 背景图片公共样式
-.mixin-bg(@url;@height:0;@repeat:no-repeat;@position:center;@size:100% 100%){
-  background-image: @url;
-  background-repeat: @repeat;
-  background-position: @position;
-  background-size: @size;
-  @media only screen and (max-width:768px){
-    background-size:auto 100%;
+  // 背景图片公共样式
+  .mixin-bg(@url;@height:0;@repeat:no-repeat;@position:center;@size:100% 100%){
+    background-image: @url;
+    background-repeat: @repeat;
+    background-position: @position;
+    background-size: @size;
+    @media only screen and (max-width:768px){
+      background-size:auto 100%;
+    }
+    height: @height;
   }
-  height: @height;
-}
 
-// 背景图片公共适配样式
-.mixin-flexiable-bg(@url,@height,@repeat:no-repeat,@position:center,@size:auto 100%){
-  @media only screen and (max-width:768px){
-    .mixin-bg(@url, @height, @repeat, @position, @size);
+  // 背景图片公共适配样式
+  .mixin-flexiable-bg(@url,@height,@repeat:no-repeat,@position:center,@size:auto 100%){
+    @media only screen and (max-width:768px){
+      .mixin-bg(@url, @height, @repeat, @position, @size);
+    }
   }
-}
 
-// 图片内容公共垂直居中样式
-.mixin-center{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  // 图片内容公共垂直居中样式
+  .mixin-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-// 公共字体设置样式
-.mixin-h(@fs:@home-head;@fw:400;@lh:1.5){
-  font-size: @fs;
-  font-weight: @fw;
-  line-height: @lh;
-}
+  // 公共字体设置样式
+  .mixin-h(@fs:@home-head;@fw:400;@lh:1.5){
+    font-size: @fs;
+    font-weight: @fw;
+    line-height: @lh;
+  }
 
 /**
  * footerlink
  */
 
- // 城市合伙人内容样式移动端适配
-.mixin-content{
-  padding: 80px 0;
-  @media only screen and (max-width:768px){
-    padding:20px 0;
+  // 城市合伙人内容样式移动端适配
+  .mixin-content{
+    padding: 80px 0;
+    @media only screen and (max-width:768px){
+      padding:20px 0;
+    }
   }
-}
 
 /*
 ** footerlink
 */
 
-// 页脚链接页面插件内容区域公共样式
-.footerlink-plugins-article{
-  text-align: left;
-  padding: 1em 3em 2em 3em;
-  letter-spacing: .2em;
-  background: white;
-}
+  // 页脚链接页面插件内容区域公共样式
+  .footerlink-plugins-article{
+    text-align: left;
+    padding: 1em 3em 2em 3em;
+    letter-spacing: .2em;
+    background: white;
+  }
 
 /*
 ****************************************************************************************************************************************
