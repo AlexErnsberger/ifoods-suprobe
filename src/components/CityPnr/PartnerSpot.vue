@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col-md-12">
           <section>
-            <h2 class="wow fadeInUp">超级探针城市合伙人亮点</h2>
+            <h2 class="wow fadeInUp">超极探针城市合伙人亮点</h2>
             <p class="wow fadeInUp">
               让每一个投资者都成为生态的参与者
               让每一个合伙人能成为项目的推动者
@@ -42,7 +42,7 @@
         <div class="row">
           <div class="col-sm-12 col-md-12">
             <p class="wow fadeInUp">
-              熟悉超级探针的应用场景和市场前景
+              熟悉超极探针的应用场景和市场前景
               有意向通过合伙人计划助力当地团队组建
             </p>
           </div>
@@ -80,7 +80,7 @@ export default {
         topSrc: '/static/img/citypnr/spot/spot-icon1.png',
         bgSrc: '/static/img/citypnr/spot/spot-bg1.png',
         contTit: '品牌独家授权',
-        cont: '超级探针C&P城市合伙人独家证书，快速提升合伙人地方影响力'
+        cont: '超极探针C&P城市合伙人独家证书，快速提升合伙人地方影响力'
       },
       spot2: {
         topSrc: '/static/img/citypnr/spot/spot-icon2.png',
@@ -92,7 +92,7 @@ export default {
         topSrc: '/static/img/citypnr/spot/spot-icon3.png',
         bgSrc: '/static/img/citypnr/spot/spot-bg3.png',
         contTit: '专业营销体系',
-        cont: '超级探针统一定价、产品供给及售后，城市合伙人负责分销，获得利润'
+        cont: '超极探针统一定价、产品供给及售后，城市合伙人负责分销，获得利润'
       }
     }
   }

@@ -4,8 +4,8 @@
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-6">
         <article class="wow fadeInDown">
-          <h1>超级探针</h1>
-          <p>由Ifoods chain智能硬件实验室研发
+          <h1>超极探针</h1>
+          <p>由食安链科技智能硬件实验室研发
             针对肉类质量检测的智能设备</p>
         </article>
       </div>

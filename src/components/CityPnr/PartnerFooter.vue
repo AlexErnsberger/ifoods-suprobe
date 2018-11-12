@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-12">
           <article class="wow fadeInUp">
-            <h3>超级探针城市合伙人
+            <h3>超极探针城市合伙人
               期待你的加入
             </h3>
             <apply-button>立即申请</apply-button>

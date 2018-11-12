@@ -26,7 +26,7 @@ export default {
   data () {
     return {
       navArray: [{
-        name: '超级探针',
+        name: '超极探针',
         path: 'model'
       },
       {

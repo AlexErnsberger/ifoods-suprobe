@@ -4,11 +4,11 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-12">
-          <h2 class="wow fadeInUp">什么是超级探针城市合伙人？</h2>
+          <h2 class="wow fadeInUp">什么是超极探针城市合伙人？</h2>
           <p class="wow fadeInUp">
-            超级探针计划在全国招募城市合伙人
+            超极探针计划在全国招募城市合伙人
             基于食品安全质量检测生态建立利润分享机制
-            奖励在<span>项目参与、硬件推广、理念传播</span>上有突出表现的超级探针持有者
+            奖励在<span>项目参与、硬件推广、理念传播</span>上有突出表现的超极探针持有者
           </p>
         </div>
       </div>
@@ -66,7 +66,7 @@ export default {
       descThree: {
         topSrc: '/static/img/citypnr/desc/desc-icon3.png',
         bgSrc: '/static/img/citypnr/desc/desc-bg3.jpg',
-        cont: '超级探针等食品质量检测智能硬件，可帮助消费者打破食品消费的知情权盲区，重建食品消费习惯，让消费者成为食品品质标准制定者。'
+        cont: '超极探针等食品质量检测智能硬件，可帮助消费者打破食品消费的知情权盲区，重建食品消费习惯，让消费者成为食品品质标准制定者。'
       }
     }
   }

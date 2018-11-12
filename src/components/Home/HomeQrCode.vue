@@ -5,7 +5,7 @@
       <div class="col-md-12">
         <section class="wow zoomIn">
           <img src="/static/img/home/qrcode.jpg">
-          <h3>扫码关注【<span>超级探针</span>】微信公众号</h3>
+          <h3>扫码关注【<span>超极探针</span>】微信公众号</h3>
         </section>
       </div>
     </div>

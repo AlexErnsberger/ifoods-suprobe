@@ -9,7 +9,7 @@
       </div>
       <div class="col-xs-12 col-sm-12 col-md-6">
         <article class="wow fadeInDown">
-          <h2 >超级探针APP下载</h2>
+          <h2 >超极探针APP下载</h2>
           <section >
             <img src="/static/img/home/download-qrcode.png" >
             <a href="#">

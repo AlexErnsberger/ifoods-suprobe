@@ -11,13 +11,13 @@
         <div class="col-xs-6 col-sm-6 col-md-6">
           <section class="left">
             <p class="wow fadeInDown">提交区域营销计划，团队情况说明等，证实团队实力</p>
-            <p class="wow fadeInDown">入选合伙人将获得超级探针提供的相关产品资料，并提供完整话术培训确认</p>
+            <p class="wow fadeInDown">入选合伙人将获得超极探针提供的相关产品资料，并提供完整话术培训确认</p>
           </section>
         </div>
         <div class="col-xs-6 col-sm-6 col-md-6">
           <section class="right">
             <p class="wow fadeInDown">根据合伙人招募要求，评审选出符合合伙人条件的候选人</p>
-             <p class="wow fadeInDown">超级探针与合伙人备选人进行深入合作意向洽谈，并确认合作计划</p>
+             <p class="wow fadeInDown">超极探针与合伙人备选人进行深入合作意向洽谈，并确认合作计划</p>
           </section>
         </div>
       </div>
