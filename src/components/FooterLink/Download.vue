@@ -19,7 +19,7 @@
           </section>
           <section >
             <img src="/static/img/home/download-andriod.png" >
-            <a href="https://www.ifoodschain.com/download/android/suprobe-android-V1.0.6.apk" >
+            <a :href="prodLink.DOWNLOAD_ANDRIOD" >
                 <i class="icon iconfont">&#xe68d;</i>
                 <span>Andriod</span>
               </a>

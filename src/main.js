@@ -10,9 +10,10 @@ import 'bootstrap/dist/js/bootstrap.min'
 import 'swiper/dist/css/swiper.css'
 import 'animate.css'
 import '@/assets/css/index.css'
+import prodLink from '@/constant/link.js'
 
+Vue.prototype.prodLink = prodLink
 Vue.config.productionTip = false
-
 Vue.use(VueAwesomeSwiper)
 
 /* eslint-disable no-new */

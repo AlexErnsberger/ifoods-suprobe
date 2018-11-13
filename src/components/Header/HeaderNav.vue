@@ -13,7 +13,7 @@
       </router-link>
     </li>
     <li @click="hidden">
-      <a href="https://weidian.com/item.html?itemID=2621089563&p=iphone&wfr=wxBuyerShare&share_relation=3288c65866e6f5c6_192567885_1" target="_blank" >
+      <a :href="prodLink.BUY" target="_blank" >
           <span>立即预订</span>
         </a>
     </li>

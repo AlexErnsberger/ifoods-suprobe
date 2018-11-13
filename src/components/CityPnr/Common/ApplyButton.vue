@@ -1,5 +1,5 @@
 <template>
-<a href="http://cn.mikecrm.com/zF12G1w">
+<a :href="prodLink.PARTNERAPPLY">
     <span>
       <slot></slot>
     </span>
