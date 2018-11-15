@@ -48,6 +48,9 @@ export default {
     aside {
       img {
         max-width: 100%;
+        @media only screen and (max-width:768px){
+          display: none;
+        }
       }
     }
 
