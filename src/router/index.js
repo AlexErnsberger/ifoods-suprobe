@@ -12,7 +12,7 @@ import SuprobeContactUs from '@/views/FooterLink/SuprobeContactUs.vue'
 import SuprobeFAQ from '@/views/FooterLink/SuprobeFAQ.vue'
 import SuprobeSalePolicy from '@/views/FooterLink/SuprobeSalePolicy.vue'
 import SuprobeDownload from '@/views/FooterLink/SuprobeDownload.vue'
-import SuprobeDownloadIOS from '@/views/FooterLink/SuprobeDownloadIOS.vue'
+// import SuprobeDownloadIOS from '@/views/FooterLink/SuprobeDownloadIOS.vue'
 import SuprobeNews from '@/views/FooterLink/SuprobeNews.vue'
 import SuprobeNews1 from '@/views/News/SuprobeNews1.vue'
 import SuprobeNews2 from '@/views/News/SuprobeNews2.vue'
@@ -83,11 +83,11 @@ export default new Router({
       name: 'download',
       component: SuprobeDownload
     },
-    {
-      path: '/downloadios',
-      name: 'downloadios',
-      component: SuprobeDownloadIOS
-    },
+    // {
+    //   path: '/downloadios',
+    //   name: 'downloadios',
+    //   component: SuprobeDownloadIOS
+    // },
     {
       path: '/news',
       name: 'news',

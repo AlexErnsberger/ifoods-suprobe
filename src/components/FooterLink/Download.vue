@@ -11,10 +11,10 @@
         <article class="wow fadeInDown">
           <h2 >超极探针APP下载</h2>
           <section >
-            <img src="/static/img/home/download-qrcode.png" >
-            <a href="#">
+            <img src="/static/img/home/download-ios.png" >
+            <a :href="prodLink.DOWNLOAD_IOS">
                 <i class="icon iconfont">&#xe68c;</i>
-                <span>IOS(敬请期待)</span>
+                <span>IOS</span>
               </a>
           </section>
           <section >

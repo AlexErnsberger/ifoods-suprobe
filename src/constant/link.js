@@ -3,7 +3,7 @@ const BUY = 'https://weidian.com/item.html?itemID=2621089563&p=iphone&wfr=wxBuye
 
 const PARTNERAPPLY = 'http://cn.mikecrm.com/zF12G1w'
 
-const DOWNLOAD_IOS = ''
+const DOWNLOAD_IOS = 'https://itunes.apple.com/app/id1440136200'
 
 const DOWNLOAD_ANDRIOD = 'https://www.ifoodschain.com/download/android/suprobe-android-V1.0.8.apk'
 
