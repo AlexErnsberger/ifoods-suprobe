@@ -65,9 +65,10 @@ export default {
         display: inline-block;
         width: 12em;
         padding: 10px;
-
+      
         img {
           border-radius: 1em;
+          padding: 10px;
           margin: 0 0 2em 0;
         }
 
