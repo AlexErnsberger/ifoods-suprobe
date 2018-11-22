@@ -7,7 +7,7 @@
           <h4 class="wow fadeInDown">友情合作</h4>
           <a target="_blank" href="http://www.buaa.edu.cn/" class="wow fadeInDown">北京航空航天大学</a>
           <a target="_blank" href="http://www.fsfda.gov.cn/" class="wow fadeInDown">佛山食药监局</a>
-          <a target="_blank" href="http://www.ppsuc.edu.cn/" class="wow fadeInDown">中国公安人民大学</a>
+          <a target="_blank" href="http://www.ppsuc.edu.cn/" class="wow fadeInDown">中国人民公安大学</a>
           <a target="_blank" href="http://www.cava.org.cn/" class="wow fadeInDown">中国蔬菜流通协会</a>
         </nav>
       </div>
