@@ -9,15 +9,15 @@
       </div>
       <div class="col-xs-12 col-sm-12 col-md-6">
         <article class="wow fadeInDown">
-          <h2 >超极探针APP下载</h2>
-          <section >
+          <h2>超极探针APP下载</h2>
+          <section>
             <img src="/static/img/home/download-ios.png" >
             <a :href="prodLink.DOWNLOAD_IOS">
                 <i class="icon iconfont">&#xe68c;</i>
                 <span>IOS</span>
               </a>
           </section>
-          <section >
+          <section>
             <img src="/static/img/home/download-andriod.png" >
             <a :href="prodLink.DOWNLOAD_ANDRIOD" >
                 <i class="icon iconfont">&#xe68d;</i>
@@ -48,7 +48,8 @@ export default {
     aside {
       img {
         max-width: 100%;
-        @media only screen and (max-width:768px){
+
+        @media only screen and (max-width: 768px) {
           display: none;
         }
       }
@@ -65,7 +66,7 @@ export default {
         display: inline-block;
         width: 12em;
         padding: 10px;
-      
+
         img {
           border-radius: 1em;
           padding: 10px;

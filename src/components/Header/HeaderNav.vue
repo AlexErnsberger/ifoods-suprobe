@@ -12,11 +12,11 @@
         <span>{{nav.name}}</span>
       </router-link>
     </li>
-    <li @click="hidden">
+    <!-- <li @click="hidden">
       <a :href="prodLink.BUY" target="_blank" >
-          <span>立即预订</span>
-        </a>
-    </li>
+        <span>立即预订</span>
+      </a>
+    </li> -->
   </ul>
 </nav>
 </template>
@@ -104,16 +104,16 @@ export default {
         }
       }
 
-      &:last-of-type {
-        a {
-          color: white;
-          background: linear-gradient(to right, @common-color-light, @common-color);
+      // &:last-of-type {
+      //   a {
+      //     color: white;
+      //     background: linear-gradient(to right, @common-color-light, @common-color);
 
-          &:hover {
-            background: @common-color-light linear-gradient(hsla(0, 0%, 100%, .2), transparent);
-          }
-        }
-      }
+      //     &:hover {
+      //       background: @common-color-light linear-gradient(hsla(0, 0%, 100%, .2), transparent);
+      //     }
+      //   }
+      // }
     }
   }
   div.header-nav-flexible{
