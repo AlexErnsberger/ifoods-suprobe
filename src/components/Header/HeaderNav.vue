@@ -12,11 +12,11 @@
         <span>{{nav.name}}</span>
       </router-link>
     </li>
-    <!-- <li @click="hidden">
+    <li @click="hidden">
       <a :href="prodLink.BUY" target="_blank" >
         <span>立即预订</span>
       </a>
-    </li> -->
+    </li>
   </ul>
 </nav>
 </template>
