@@ -29,15 +29,25 @@ const NEWS = [{
   参评产品以企业在产业周现场展示及推广的产品为主，食安链专家携超极探针参与"最受关注肉类好食材"品评活动。`
 },
 {
-  img: '/static/img/news/news1/news1-6.jpg',
+  img: '/static/img/news/news6/news6.jpg',
   path: '',
-  href: 'https://mp.weixin.qq.com/s/C4dZVv7SP04pGHSU581WvQ',
-  title: 'Ifoods Chain成为中国蔬菜流通协会战略合作伙伴',
-  publishTime: '2018-07-19',
-  abstract: `近年来，我国的食品安全和区块链技术都是处于高增长态势，将食品安全纳入健康中国建设，
-  多次强调要实施食品安全战略，让人民群众吃的放心。人民日报、工信部等则相继出文指出，
-  区块链将成为社会发展动力的主轴，且区块链的发展速度将要提升。`
+  href: 'https://mp.weixin.qq.com/s/j_jDXfTwk5HdKSl4iFMRtw',
+  title: '【喜报】超极探针成为中国蔬菜流通协会战略合作伙伴 用区块链提升食品信任',
+  publishTime: '昨天',
+  abstract: `近年来，我国的食品安全和区块链技术都是处于高增长态势，将食品安全纳入健康中国建设，多次强调要实施食品安全战略，让人民群众吃的放心。
+  人民日报、工信部等则相继出文指出，区块链将成为社会发展动力的主轴，且区块链的发展速度将要提升。
+  将区块链技术应用于食品安全领域是一次对传统企业的全新尝试，也是食安科技准备已久的一次行动。`
 },
+// {
+//   img: '/static/img/news/news1/news1-6.jpg',
+//   path: '',
+//   href: 'https://mp.weixin.qq.com/s/C4dZVv7SP04pGHSU581WvQ',
+//   title: 'Ifoods Chain成为中国蔬菜流通协会战略合作伙伴',
+//   publishTime: '2018-07-19',
+//   abstract: `近年来，我国的食品安全和区块链技术都是处于高增长态势，将食品安全纳入健康中国建设，
+//   多次强调要实施食品安全战略，让人民群众吃的放心。人民日报、工信部等则相继出文指出，
+//   区块链将成为社会发展动力的主轴，且区块链的发展速度将要提升。`
+// },
 {
   img: '/static/img/news/news2/news2-1.jpg',
   path: 'news2',
