@@ -1,7 +1,7 @@
 <template>
 <div class="news-model">
-  <router-link class="news-img" v-if="news.path" :to="news.path" tag="a">
-    <img :src="news.img">
+    <router-link class="news-img" v-if="news.path" :to="news.path" tag="a">
+      <img :src="news.img">
     </router-link>
     <a class="news-img" v-else :href="news.href" target="_blank">
       <img :src="news.img">
