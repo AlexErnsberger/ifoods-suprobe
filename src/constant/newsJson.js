@@ -30,6 +30,27 @@ const NEWS = [{
 },
 // 此处开始增加新的新闻
 {
+  img: '/static/img/news/news8/news1.jpg',
+  path: '',
+  href: 'https://mp.weixin.qq.com/s/seVNlqkpK2lJ3OWTSfFEaA',
+  title: '超极探针亮相首届中国（上海）蔬菜食品安全高峰论坛 助推“有机长三角”可持续发展',
+  publishTime: '3天前',
+  abstract: `由中国蔬菜流通协会、绿色农业发展中国论坛和上海蔬菜集团联合举办的“首届中国（上海）蔬菜食品安全高峰论坛-暨上海长三角一体化蔬菜及农产品创新流通对接会”本周在上海举行。
+  来自长三角地区及西藏、福建等地的蔬菜生产及流通企业在对接会上展示了各地特色农产品和流通技术，作为食品快检领域的行业领先者，
+  食安链科技携全新智能检测“黑科技”超极探针出席，向各地代表团展示了基于区块链技术的食品快检功能，
+  并就蔬菜食品安全保障和长三角食品流通体系建设等内容展开探讨。`
+},
+{
+  img: '/static/img/news/news8/news2.jpg',
+  path: '',
+  href: 'https://mp.weixin.qq.com/s/aH9j3OKkzbuPuU_t2dKSOw',
+  title: '超极探针参与关心下一代营养膳食指导委员成立大会 将发力中小学生食材健康检测',
+  publishTime: '3天前',
+  abstract: `近日，由中国烹饪协会主办的“关心下一代营养膳食指导委员会成立大会”正式在北京召开。
+  作为长期关注青少年膳食营养的科技企业，超极探针与中国儿童中心儿童营养与健康研究中心、北京教育协会、北京市营养源研究所、等众多食品、教育行业机构、优秀企业一同出席本次会议，
+  将协同其他机构共同负责青少年食品检测工作。`
+},
+{
   img: '/static/img/news/news5/news5.png',
   path: '',
   href: 'https://mp.weixin.qq.com/s/QWmhnqLFSIbBQGfr9C1jgQ',
