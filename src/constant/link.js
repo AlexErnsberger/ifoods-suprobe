@@ -5,7 +5,7 @@ const PARTNERAPPLY = 'http://cn.mikecrm.com/zF12G1w'
 
 const DOWNLOAD_IOS = 'https://itunes.apple.com/app/id1440136200'
 
-const DOWNLOAD_ANDRIOD = 'https://www.ifoodschain.com/download/android/suprobe-android-V1.2.0.apk'
+const DOWNLOAD_ANDRIOD = 'https://www.ifoodschain.com/download/android/suprobe-android-V1.2.2.apk'
 
 export default{
   BUY, PARTNERAPPLY, DOWNLOAD_IOS, DOWNLOAD_ANDRIOD
